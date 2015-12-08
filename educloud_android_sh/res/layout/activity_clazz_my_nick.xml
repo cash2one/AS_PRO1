@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+     <include layout="@layout/include_head" />
+	<RelativeLayout 
+	    android:layout_below="@+id/relativelayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <RelativeLayout 
+		    android:id="@+id/my_info_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/clazz_set_info_height"
+	    	android:background="@drawable/white_bg"
+	    	android:clickable="true">
+			<ImageView android:id="@+id/imageview_classavater"
+				android:layout_width="60dip"
+				android:layout_height="60dip"
+				android:background="@drawable/default_user"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="@dimen/clazz_set_margin_left"/>
+			
+			<LinearLayout 
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_toRightOf="@+id/imageview_classavater"
+				android:gravity="left|center_vertical"
+				android:layout_marginLeft="@dimen/clazz_set_margin_left"
+				android:orientation="vertical">
+			    <TextView android:id="@+id/textview_my_account_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="张老师"
+					android:textColor="@color/black"/>
+				<TextView 
+				    android:id="@+id/textview_my_account_role"
+				    android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="教师"
+					android:layout_marginTop="5dip"/>
+			</LinearLayout>
+		</RelativeLayout>
+		
+	    <RelativeLayout 
+	        android:id="@+id/my_account_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/clazz_set_normal_height"
+			android:layout_below="@+id/my_info_layout"
+			android:clickable="true"
+	    	android:background="@drawable/white_bg">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:text="账号信息"
+				android:textColor="@color/black"
+				android:layout_marginLeft="10dip"/>
+			<TextView 
+			    android:id="@+id/textview_my_account_phone"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:layout_marginRight="20dip"/>
+		</RelativeLayout>
+		
+	    <RelativeLayout 
+	        android:id="@+id/my_nick_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/clazz_set_normal_height"
+			android:layout_below="@+id/my_account_layout"
+			android:clickable="true"
+	    	android:background="@drawable/white_bg">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:text="班级昵称"
+				android:textColor="@color/black"
+				android:layout_marginLeft="10dip"/>
+			<TextView 
+			    android:id="@+id/textview_my_nick"
+			    android:layout_toLeftOf="@+id/group_school_arrow2"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dip"
+				android:layout_marginRight="@dimen/clazz_set_margin_left"
+				android:layout_centerVertical="true"
+				android:text="张老师"
+				android:textColor="@color/black"/>
+			<ImageView 
+			    android:id="@+id/group_school_arrow2"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_marginTop="10dip"
+				android:layout_marginRight="@dimen/clazz_set_margin_left"
+				android:layout_centerVertical="true"
+				android:src="@drawable/arrow_carrot_right"/>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

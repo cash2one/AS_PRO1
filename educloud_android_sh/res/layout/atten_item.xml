@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:id="@+id/lyAtten"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/atten_line_height"
+	    android:orientation="horizontal"
+	    android:baselineAligned="true"> 
+    
+	    <RelativeLayout 
+	        android:id="@+id/rlyStudent1"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:clickable="true">
+	        
+	        <TextView 
+	            android:id="@+id/tvStudent1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:padding="5dp"
+		        android:text=""
+		        android:textColor="@drawable/atten_stu_text_selector"
+		        android:textSize="18sp"
+		        android:gravity="center"
+		        android:background="@drawable/atten_student_selector"/>
+	        
+<!-- 	        <View
+	            android:layout_width="1px"
+	            android:layout_height="fill_parent"
+	            android:background="@color/at_light_gray" 
+	            android:layout_alignParentRight="true"/>-->
+	        
+	        <ImageView
+	            android:id="@+id/imgv1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="2dp"
+	            android:layout_marginBottom="2dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:visibility="gone"/> 
+	        
+	    </RelativeLayout>
+	    
+	    <RelativeLayout 
+	        android:id="@+id/rlyStudent2"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:clickable="true">
+	        
+	        <TextView 
+	            android:id="@+id/tvStudent2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text=""
+		        android:background="@drawable/atten_student_selector"
+		        android:textColor="@drawable/atten_stu_text_selector"
+		        android:textSize="18sp"
+		        android:gravity="center"/>
+	        
+	        <ImageView
+	            android:id="@+id/imgv2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="2dp"
+	            android:layout_marginBottom="2dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:visibility="gone"/> 
+	        
+	    </RelativeLayout>
+	    
+	    <RelativeLayout 
+	        android:id="@+id/rlyStudent3"
+	        android:layout_width="0dip"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:clickable="true">
+	        
+	        <TextView 
+	            android:id="@+id/tvStudent3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@drawable/atten_student_selector"
+		        android:text=""
+		        android:textColor="@drawable/atten_stu_text_selector"
+		        android:textSize="18sp"
+		        android:gravity="center"/>
+	        
+	        <ImageView
+	            android:id="@+id/imgv3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="2dp"
+	            android:layout_marginBottom="2dp"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:visibility="gone"/> 
+	        
+	    </RelativeLayout>
+	 </LinearLayout>
+	 
+    <LinearLayout
+        android:id="@+id/lyAttenSum"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:visibility="visible">
+    
+    <RelativeLayout 
+      android:id="@+id/rlyAtten"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:paddingBottom="20dp">
+      
+      <TextView android:id="@+id/tvDateText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/today_atten"
+          android:textColor="#cbcbcb"
+          android:textSize="16sp"/>
+      
+      <TextView android:id="@+id/tvDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="1dp"
+          android:layout_alignTop="@+id/tvDateText"
+          android:layout_toRightOf="@+id/tvDateText"
+          android:text="2015-3-16"
+          android:textColor="#cbcbcb"
+          android:textSize="16sp"/>
+      
+      <FrameLayout
+	    android:id="@+id/flyPie"
+	    android:layout_width="@dimen/atten_pie_width"
+	    android:layout_height="@dimen/atten_pie_width"
+	    android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDateText"
+        android:layout_marginTop="10dp" >
+        <!-- android:background="@color/at_mid_gray" -->
+        
+          <com.linkage.mobile72.sh.widget.DountChartCircleView 
+	        android:id="@+id/dountChartCirCle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+    
+	    <com.linkage.mobile72.sh.widget.DountChart01View 
+	        android:id="@+id/dountChart"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+        
+          <RelativeLayout 
+          android:id="@+id/rly_left"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">
+          
+          
+          <LinearLayout 
+          android:id="@+id/ly1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:orientation="horizontal"
+          android:gravity="center">
+           
+	           <TextView android:id="@+id/tvTotalText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/total_human"
+	            android:textColor="@color/at_light_dark"
+	            android:textSize="16sp"/>
+	          
+	          	<TextView android:id="@+id/tvTotal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="1dp"
+	            android:layout_marginRight="1dp"
+	            android:text="32"
+	            android:textColor="@color/at_light_green"
+	            android:textSize="20sp"/>
+	          
+	           <TextView android:id="@+id/tvHumanText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/human"
+	            android:textColor="@color/at_light_dark"
+	            android:textSize="16sp"/>
+           
+          </LinearLayout>
+          
+          <LinearLayout 
+              android:id="@+id/ly2"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+           android:layout_below="@+id/ly1"
+           android:layout_alignLeft="@+id/ly1"
+           android:orientation="horizontal"
+           android:gravity="center">
+           
+           <TextView android:id="@+id/tvLeave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:text="3"
+            android:textColor="@color/at_light_red"
+            android:textSize="20sp"/>
+           
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ren_leave"
+               android:textColor="@color/at_light_dark"
+               android:textSize="16sp"/>
+           
+          </LinearLayout>
+          
+          <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_below="@+id/ly2"
+           android:layout_alignLeft="@+id/ly1"
+           android:orientation="horizontal"
+           android:gravity="center">
+	           <TextView android:id="@+id/tvNotAtten"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:layout_marginRight="1dp"
+		           android:text="2"
+		           android:textColor="@color/at_light_orange"
+		           android:textSize="20sp"/>
+	           <TextView 
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:text="@string/ren_no_atten"
+	               android:textColor="@color/at_light_dark"
+	               android:textSize="16sp"/>
+          </LinearLayout>
+          
+          
+      </RelativeLayout>
+          
+      </FrameLayout>
+      
+      <RelativeLayout 
+          android:id="@+id/rly_right"
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/atten_pie_width"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/flyPie"
+          android:gravity="center_vertical">
+          
+           <Button 
+              android:id="@+id/btnConfirm"
+              android:layout_width="114dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/atten_confirm_selector"
+              android:text="@string/atten_confirm"
+              android:textColor="@android:color/white"
+              android:textSize="18sp"
+              android:gravity="center"/>
+          
+          <Button 
+              android:id="@+id/btnHistory"
+              android:layout_width="114dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/btnConfirm"
+              android:layout_alignLeft="@+id/btnConfirm"
+              android:layout_marginTop="30dp"
+              android:background="@drawable/atten_history_selector"
+              android:text="@string/atten_history"
+              android:textColor="@android:color/white"
+              android:textSize="18sp"
+              android:gravity="center"
+              android:visibility="visible"/>
+          
+      </RelativeLayout>
+                
+    </RelativeLayout>
+            
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@color/at_light_gray" />
+
+</LinearLayout>
+    
+</FrameLayout>
+
+    

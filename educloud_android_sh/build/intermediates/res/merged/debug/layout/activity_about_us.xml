@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/common_bg_color">
+	
+	<include layout="@layout/include_head" />
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    <LinearLayout android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="2"/>
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="5"
+	        android:gravity="center">
+
+			<ImageView
+			    android:id="@+id/view1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:background="@drawable/logo_aboutus" />
+
+			<TextView android:id="@+id/view2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/view1"
+				android:layout_centerHorizontal="true"
+				android:textColor="@color/black"
+				android:textSize="14sp"
+				android:layout_marginTop="10dip"/>
+			<TextView android:id="@+id/view3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/view2"
+				android:layout_centerHorizontal="true"
+				android:textColor="@color/dark_gray"
+				android:textSize="14sp"
+				android:layout_marginTop="10dip"/>
+		</RelativeLayout>
+		<RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="4">
+			<TextView android:id="@+id/view4"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Copyright 2014.  All Rights Reserved"
+				android:textSize="14sp"
+				android:textColor="@color/dark_gray"
+				android:layout_alignParentBottom="true"
+				android:layout_marginBottom="30dip"/>
+		</RelativeLayout>
+	</LinearLayout>
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_about_us.xml -->

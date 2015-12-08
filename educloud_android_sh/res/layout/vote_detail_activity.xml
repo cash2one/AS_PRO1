@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+	<include
+        layout="@layout/include_head_double_title"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativelayout1">
+        <include
+            layout="@layout/base_pull_load_list_layout" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/common_bg_color">
+	
+	<include layout="@layout/include_head_double_title" />
+	
+	<Button
+	    android:id="@+id/jifen_button"
+	    android:layout_width="180dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="150dp"
+	    android:background="@drawable/my_jifen_bg"
+	    android:layout_centerHorizontal="true"
+	    android:paddingLeft="25dp"
+	    android:paddingRight="25dp"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	    android:textColor="@color/white"
+	    android:textSize="24sp"
+	    android:text="积分兑换"/>
+	
+	<TextView 
+	    android:id="@+id/view3"
+	    android:layout_below="@+id/jifen_button"
+	    android:layout_marginTop="5dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textColor="@color/red"
+		android:textSize="20sp"
+		android:text="即将开放..."/>
+</RelativeLayout>

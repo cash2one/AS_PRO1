@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"  ><color android:color="#d4d4d4"/></item>
+    <item ><color android:color="#ffffff"/></item>
+</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/reply_list_item_bg.xml -->

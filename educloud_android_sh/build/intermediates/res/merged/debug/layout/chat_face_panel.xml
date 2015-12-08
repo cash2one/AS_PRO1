@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linkage.mobile72.sh.widget.FacePanelView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/face_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="220.0dip"
+    android:orientation="vertical"
+    android:visibility="gone">
+    <GridView 
+        android:id="@+id/face_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="1.0dip"
+        android:verticalSpacing="1.0dip"/>
+</com.linkage.mobile72.sh.widget.FacePanelView>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/chat_face_panel.xml -->

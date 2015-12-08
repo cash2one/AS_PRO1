@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:background="@drawable/common_list_item_bg" >
+    
+    <TextView 
+   	    android:id="@+id/text_name"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_centerVertical="true"
+   	    android:layout_marginLeft="20dp"
+   	    android:singleLine="true"
+   	    android:textColor="@color/black"
+   	    android:textSize="18sp"/>
+    
+	<Button 
+	   	    android:id="@+id/join"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_centerVertical="true"
+	   	    android:layout_alignParentRight="true"
+	   	    android:focusable="false"
+	   	    android:paddingTop="5dp"
+	   	    android:paddingBottom="5dp"
+	   	    android:paddingLeft="10dp"
+	   	    android:paddingRight="10dp"
+	   	    android:layout_marginRight="20dip"
+            android:background="@drawable/btn_common_selector"
+	   	    android:textColor="@color/white"
+	   	    android:text="添加好友"/>	
+	
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/address_item.xml -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlyLine"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="14dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="25dp"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+ <!-- android:background="#f0945a" -->
+
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sc_frg_linechart_height"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.linkage.mobile72.sh.widget.LineChartView
+                    android:id="@+id/lineChartRt"
+                    android:layout_width="@dimen/sc_frg_linechart_width"
+                    android:layout_height="@dimen/sc_frg_linechart_height" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/lineChartRt"
+                    android:paddingBottom="20dp"
+                    android:text="时间"
+                    android:textColor="@android:color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.linkage.mobile72.sh.widget.LineChartLeftView
+        android:id="@+id/circle_view"
+        android:layout_width="17dp"
+        android:layout_height="@dimen/sc_frg_linechart_height"
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="趋势"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:layout_width="2px"
+        android:layout_height="180dp"
+        android:layout_marginLeft="11px"
+        android:layout_marginTop="21dp"
+        android:background="#d6d6d6" >
+    </View>
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRank"
+        android:layout_marginLeft="5px"
+        android:src="@drawable/arrow_light_gray2"
+        android:visibility="invisible" />
+
+</RelativeLayout>

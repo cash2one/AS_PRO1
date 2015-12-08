@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+     <include
+        layout="@layout/include_head"/>
+     
+	<FrameLayout  
+        android:id="@+id/fragment_container"  
+        android:layout_below="@+id/relativelayout1"
+        android:layout_above="@+id/radio_group"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" /> 
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+		<RadioButton 
+		    android:id="@+id/radio_send_box"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="match_parent"
+		    android:checked="true"
+		    android:gravity="center"
+		    android:button="@null"
+		    android:background="@drawable/jx_office_type_btn"
+		    android:textColor="@drawable/jx_office_type_text"
+		    android:text="发件箱"/>
+        <RadioButton 
+		    android:id="@+id/radio_receive_box"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+		    android:button="@null"
+		    android:background="@drawable/jx_office_type_btn"
+		    android:textColor="@drawable/jx_office_type_text"
+		    android:text="收件箱"/>
+    </RadioGroup>
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_jxhd_office_list.xml -->

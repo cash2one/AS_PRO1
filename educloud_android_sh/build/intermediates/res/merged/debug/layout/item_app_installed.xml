@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_app_item"
+        android:layout_width="@dimen/item_app_installed_image"
+        android:layout_height="@dimen/item_app_installed_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+         />
+
+    <TextView
+        android:id="@+id/text_app_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/item_app_installed_text"
+        android:textColor="#000000" />
+
+</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/item_app_installed.xml -->

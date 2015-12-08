@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.linkage.mobile72.sh.widget.calendar.MonthView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="4dp"
+      android:gravity="center_horizontal"
+      style="@style/CalendarTitle"
+      />
+  <com.linkage.mobile72.sh.widget.calendar.CalendarGridView
+      android:id="@+id/calendar_grid"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <com.linkage.mobile72.sh.widget.calendar.CalendarRowView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/CalendarCell.DayHeader"
+          />
+    </com.linkage.mobile72.sh.widget.calendar.CalendarRowView>
+    <include layout="@layout/week"/>
+    <include layout="@layout/week"/>
+    <include layout="@layout/week"/>
+    <include layout="@layout/week"/>
+    <include layout="@layout/week"/>
+    <include layout="@layout/week"/>
+  </com.linkage.mobile72.sh.widget.calendar.CalendarGridView>
+</com.linkage.mobile72.sh.widget.calendar.MonthView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/tk_grid_width"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tk_add_pic_selector"
+        android:scaleType="centerCrop"/>
+
+
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/adapter_tk_grid.xml -->

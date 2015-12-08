@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="DroidPluginTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

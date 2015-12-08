@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/round_cornor_white">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tips"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+    
+     <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:layout_below="@id/tvTitle"
+        android:layout_alignLeft="@id/tvTitle"
+        android:layout_alignRight="@+id/tvInfo"
+        android:layout_marginTop="3dp"
+        android:background="#696969" 
+        android:visibility="gone"/>
+
+    <!-- <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvTitle"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/tips_detail"
+        android:textColor="@android:color/white"/> -->
+        
+        <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tips_detail"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/confirm_atten"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvInfo"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

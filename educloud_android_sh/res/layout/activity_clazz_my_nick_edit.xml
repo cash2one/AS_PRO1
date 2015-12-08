@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/include_head" />
+	<RelativeLayout 
+	    android:layout_below="@+id/relativelayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <RelativeLayout 
+	        android:id="@+id/my_nick_edit_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/clazz_set_normal_height"
+			android:clickable="true"
+	    	android:background="@drawable/white_bg">
+			<EditText 
+			    android:id="@+id/my_nick"
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:background="@null"
+				android:text="我的昵称"
+				android:textColor="@color/black"
+				android:layout_centerInParent="true"
+				android:gravity="center"/>
+		</RelativeLayout>
+		<RelativeLayout 
+		    android:id="@+id/group_last_layout"
+		    android:layout_below="@id/my_nick_edit_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/clazz_set_btn_margin_top"
+			android:gravity="center">
+			<Button android:id="@+id/submit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/circle_btn_red"
+			    android:layout_centerHorizontal="true"
+			    android:text="提交修改"/>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

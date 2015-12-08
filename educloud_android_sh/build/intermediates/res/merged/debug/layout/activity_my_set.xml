@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <LinearLayout
+        android:id="@+id/layout_user_opinion"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_resp"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+	<LinearLayout
+        android:id="@+id/layout_help_center"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_help"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_user_about"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_about"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_version"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:layout_marginBottom="20dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_version"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_recv_set"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接收设置"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_pwd"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_Flush"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_flush"
+            android:textColor="@color/black_little"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_user_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height"
+        android:layout_marginTop="20dip"
+        android:background="@color/red"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_my_set.xml -->

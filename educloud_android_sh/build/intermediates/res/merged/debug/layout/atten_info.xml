@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+      android:id="@+id/rlyAtten"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:paddingBottom="20dp">
+      
+      <TextView android:id="@+id/tvDateText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/today_atten"
+          android:textColor="#cbcbcb"
+          android:textSize="16sp"/>
+      
+      <TextView android:id="@+id/tvDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="1dp"
+          android:layout_alignTop="@+id/tvDateText"
+          android:layout_toRightOf="@+id/tvDateText"
+          android:text="2015-3-16"
+          android:textColor="#cbcbcb"
+          android:textSize="16sp"/>
+      
+      <RelativeLayout 
+          android:id="@+id/rly_left"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/tvDateText"
+          android:layout_marginTop="10dp">
+          
+          
+          <LinearLayout 
+              android:id="@+id/ly1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+           android:orientation="horizontal"
+           android:gravity="center">
+           
+           <TextView android:id="@+id/tvTotalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_human"
+            android:textColor="@color/at_light_dark"
+            android:textSize="16sp"/>
+          
+          	<TextView android:id="@+id/tvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:text="32"
+            android:textColor="@color/at_light_green"
+            android:textSize="20sp"/>
+          
+           <TextView android:id="@+id/tvHumanText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/human"
+            android:textColor="@color/at_light_dark"
+            android:textSize="16sp"/>
+           
+          </LinearLayout>
+          
+          <LinearLayout 
+              android:id="@+id/ly2"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+           android:layout_below="@+id/ly1"
+           android:layout_alignLeft="@+id/ly1"
+           android:orientation="horizontal"
+           android:gravity="center">
+           
+           <TextView android:id="@+id/tvLeave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:text="3"
+            android:textColor="@color/at_light_red"
+            android:textSize="20sp"/>
+           
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ren_leave"
+               android:textColor="@color/at_light_dark"
+               android:textSize="16sp"/>
+           
+          </LinearLayout>
+          
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+           android:layout_below="@+id/ly2"
+           android:layout_alignLeft="@+id/ly1"
+           android:orientation="horizontal"
+           android:gravity="center">
+           <TextView android:id="@+id/tvNotAtten"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="1dp"
+           android:text="2"
+           android:textColor="@color/at_light_orange"
+           android:textSize="20sp"/>
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ren_no_atten"
+               android:textColor="@color/at_light_dark"
+               android:textSize="16sp"/>
+          </LinearLayout>
+          
+          
+      </RelativeLayout>
+      
+      <RelativeLayout 
+          android:id="@+id/rly_right"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/rly_left">
+          
+          <Button 
+              android:id="@+id/btnConfirm"
+              android:layout_width="114dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/atten_confirm_selector"
+              android:text="@string/atten_confirm"
+              android:textColor="@android:color/white"
+              android:textSize="18sp"
+              android:gravity="center"/>
+          
+          <Button 
+              android:id="@+id/btnHistory"
+              android:layout_width="114dp"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/btnConfirm"
+              android:layout_alignLeft="@+id/btnConfirm"
+              android:layout_marginTop="15dp"
+              android:background="@drawable/atten_history_selector"
+              android:text="@string/atten_history"
+              android:textColor="@android:color/white"
+              android:textSize="18sp"
+              android:gravity="center"/>
+          
+      </RelativeLayout>
+                
+    </RelativeLayout>
+            
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1px"
+    android:background="@color/at_light_gray" />
+
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/atten_info.xml -->

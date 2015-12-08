@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head_withava" /> 
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="40dp" >
+
+                <TextView
+                    android:id="@+id/txt_clazz_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#454545"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txt_selector"
+                    android:layout_width="@dimen/include_head_withava_jiabutton"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:gravity="center|right"
+                    android:text="切换"
+                    android:visibility="gone"
+                    android:textColor="@color/tab_txt_press"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d0d0d0" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/tab_clazz_dynamic"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/ctab_clazzdynamic"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="17dp"
+                    android:text="班级动态"
+                    android:textColor="@color/tab_item_txt"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#dadada" />
+
+                <RadioButton
+                    android:id="@+id/tab_clazz_album"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/ctab_clazzalbum"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="17dp"
+                    android:text="班级相册"
+                    android:textColor="@color/tab_item_txt"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#dadada" />
+
+                <RadioButton
+                    android:id="@+id/tab_my_posts"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/ctab_mydynamic"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="17dp"
+                    android:text="我的帖子"
+                    android:textColor="@color/tab_item_txt"
+                    android:textSize="14sp" />
+            </RadioGroup>
+			
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#d0d0d0" />
+            
+            <FrameLayout
+                android:id="@+id/content"
+                android:background="#e4e4e4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </FrameLayout>
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#f6f6f6" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_marginRight="42dp"
+                android:layout_marginTop="27dp"
+                android:text="对不起，暂无数据"
+                android:textColor="@color/at_mid_gray"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="13dp"
+                android:gravity="right"
+                android:text="您未加入任何班级"
+                android:textColor="@color/at_light_dark"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/clazz_empty_bg" />
+
+        </RelativeLayout>
+        
+    </FrameLayout>
+
+</LinearLayout>

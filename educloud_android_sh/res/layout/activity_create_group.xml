@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color">
+
+    <include layout="@layout/include_head" android:layout_alignParentTop="true"/>
+    
+    <LinearLayout 
+        android:id="@+id/linearlayout" 
+        android:layout_below="@+id/relativelayout1"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+        
+        <RelativeLayout 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dip">
+		    <LinearLayout 
+		        android:id="@+id/linearlayout1"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="@dimen/common_item_height"
+		        android:background="@drawable/white_bg"
+		        android:orientation="horizontal"
+		        android:gravity="bottom">
+		        <EditText 
+	                android:id="@+id/group_name"
+	                android:padding="4dip"
+	                android:gravity="center"
+	                android:background="@null"
+	                android:maxLength="50"
+	                android:singleLine="true"
+	                android:hint="请填写班级名称"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:textColor="@color/black"/>
+		    </LinearLayout>
+		    <LinearLayout 
+		        android:id="@+id/linearlayout2"
+		        android:layout_below="@+id/linearlayout1"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="@dimen/common_item_height"
+		        android:background="@drawable/white_bg"
+		        android:layout_marginTop="10dip"
+		        android:orientation="horizontal"
+		        android:gravity="bottom">
+		        <TextView 
+	                android:id="@+id/group_school"
+	                android:gravity="center"
+	                android:text="请选择学校"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:textColor="@color/black"/>
+		    </LinearLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+	        android:id="@+id/user_avater_layouts"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dip"
+		    android:gravity="center">
+		    <LinearLayout 
+		        android:id="@+id/linearlayout3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/create_group_plus_bg"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center">
+				<Button 
+				    android:id="@+id/create_group_plus_btn"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/create_group_plus_btn"/>
+				<ImageView
+				    android:id="@+id/imageview"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:layout_margin="1dp"
+				    android:visibility="gone"/>
+			</LinearLayout>
+			<TextView android:layout_below="@+id/linearlayout3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerHorizontal="true"
+			    android:layout_marginTop="5dip"
+			    android:textColor="@color/black"
+			    android:text="点击上传班级照片"/>
+		</RelativeLayout>
+		
+        <RelativeLayout 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20dip">
+		    <Button 
+		        android:id="@+id/submit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/circle_btn_red"
+		        android:layout_centerHorizontal="true"
+		        android:textColor="@color/white"
+		        android:text="确定"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

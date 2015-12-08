@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/wonder_exer_item_gap"
+        android:background="@drawable/topic_item_selector" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/item_pic"
+            android:layout_width="@dimen/wonder_exer_item_pic_width"
+            android:layout_height="@dimen/wonder_exer_item_pic_height"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/wonder_exer_item_margin_1"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/item_pic"
+            android:layout_below="@id/item_pic"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/wonder_exer_item_title"
+            android:textSize="@dimen/wonder_exer_item_title" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/item_title"
+            android:layout_marginTop="3dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/wonder_exer_item_margin_2"
+            android:layout_alignLeft="@id/item_title"
+            android:layout_below="@id/line"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/wonder_exer_item_787878"
+            android:textSize="@dimen/wonder_exer_item_commen_size" />
+
+        <TextView
+            android:id="@+id/item_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/wonder_exer_item_margin_2"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/line"
+            android:layout_centerVertical="true"
+            android:drawableRight="@drawable/indicator_right"
+            android:gravity="center_vertical"
+            android:text="进行中"
+            android:textColor="@color/wonder_exer_item_60cdf6"
+            android:textSize="@dimen/wonder_exer_item_commen_size" />
+    </RelativeLayout>
+
+</LinearLayout>

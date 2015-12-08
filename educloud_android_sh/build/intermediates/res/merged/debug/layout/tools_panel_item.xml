@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_gravity="center"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" >
+  
+	<ImageView
+	   android:id="@+id/more_image"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_width="60dip"
+	   android:layout_height="60dip" 
+	   android:duplicateParentState="true"/>
+	
+	<TextView
+	   android:id="@+id/more_txt"
+	   android:textColor="#666666"
+	   android:layout_gravity="center_horizontal"
+	   android:textSize="15sp"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"/>
+	
+</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/tools_panel_item.xml -->

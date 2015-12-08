@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+	    android:id="@+id/relativelayout1"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/title_top_bg_green">
+	    <Button android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/title_back"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/title_back_margin_left"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_centerInParent="true">
+	        <TextView 
+		        android:id="@+id/title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:textColor="@color/white"
+		        android:textSize="18sp"/>
+	    
+		    <ImageView 
+		        android:id="@+id/indicate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="3dp"
+		        android:src="@drawable/jx_parent_choose_child_down"
+		        android:visibility="gone"/>
+	    </LinearLayout>
+	    
+	    <Button 
+	        android:id="@+id/set"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="12dp"
+	        android:visibility="gone"
+	        android:text="@string/add_pic"
+	        android:textColor="@color/white"
+	        android:textSize="15sp"/>
+	</RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativelayout4"
+        android:layout_below="@+id/relativelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	    <include
+       		layout="@layout/base_pull_load_list_with_image_layout" />
+	</RelativeLayout>
+    
+</RelativeLayout>
+
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_clazz_talk.xml -->

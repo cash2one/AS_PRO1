@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView 
+        android:id="@+id/nameText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="王涛"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <View 
+        android:layout_width="0.5dp"
+        android:layout_height="40dp"
+        android:background="#787878"/>
+    
+    <TextView 
+        android:id="@+id/stateText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:text="已回"
+        android:gravity="center"
+        android:textColor="@color/green"/>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#787878"/>
+    
+    <LinearLayout
+        android:id="@+id/expend_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#55bb55"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/btn_message"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发消息"
+                android:textColor="#ffffff" 
+                android:layout_marginLeft="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_call"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打电话"
+                android:textColor="#ffffff" 
+                android:layout_marginLeft="5dip"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

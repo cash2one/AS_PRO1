@@ -1,0 +1,1 @@
+include ':app', ':webview', ':educloud_android_sh'

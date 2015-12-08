@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_item_height_big"
+        android:background="@drawable/common_list_item_bg"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/default_user"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="center_vertical"
+            android:text="新的朋友"
+            android:textColor="@android:color/black" />
+        
+        <View
+            android:id="@+id/back"
+            android:visibility="gone"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+        
+        <View
+            android:id="@+id/front"
+            android:visibility="gone"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+        
+    </LinearLayout>

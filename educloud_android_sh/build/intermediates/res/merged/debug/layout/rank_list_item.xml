@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white" >
+
+    <com.linkage.mobile72.sh.widget.CircularImage
+        android:id="@+id/user_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView android:id="@+id/ranking_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/user_avatar"
+        android:layout_marginLeft="10dp"
+        android:text="第一名:"
+        android:textColor="@color/black"/>
+    
+    <TextView android:id="@+id/user_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/ranking_text"
+        android:layout_marginLeft="10dp"
+        android:text="第一名:"
+        android:textColor="@color/black"/>
+    
+    <TextView android:id="@+id/total_distance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/user_avatar"
+        android:layout_below="@id/ranking_text"
+        android:layout_marginLeft="10dp"
+        android:text="第一名:"/>
+
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/rank_list_item.xml -->

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+    
+
+    <LinearLayout 
+        android:id="@+id/rlyType"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sc_frg_type_heght"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView 
+            android:id="@+id/tvDaily"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/day_test"
+            android:textSize="16sp"
+            android:textColor="@color/intr_page_bg_parent"/>
+        
+         <View 
+	   	    android:id="@+id/vline1"
+	        android:layout_width="1px"
+	        android:layout_height="fill_parent"
+	        android:background="#dcdada"/>
+        
+        <TextView 
+            android:id="@+id/tvPhase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/phase_test"
+            android:textSize="16sp"
+            android:textColor="@color/sc_light_gray"/>
+        
+    </LinearLayout>
+    <View 
+   	    android:id="@+id/vline2"
+   	    android:layout_below="@+id/rlyType"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#dcdada"/>
+    
+    <RelativeLayout 
+        android:id="@+id/rlyPer"
+        android:layout_below="@+id/vline2"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/title_top_bg"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="left|center_vertical">
+        
+        <ImageView 
+            android:id="@+id/imgDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dot_white"
+            android:layout_centerVertical="true"/>
+        <TextView 
+	        android:id="@+id/tvPer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/imgDot"
+	        android:layout_marginLeft="2dp"
+	        android:textColor="@android:color/white"
+	        android:textSize="16sp"
+	        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:id="@+id/lyEmpty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone">
+        <ImageView 
+            android:id="@+id/imgEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sc_empty"
+            android:visibility="gone"/>
+         <TextView 
+	        android:id="@+id/tvEmpty"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sc_empty"
+	        android:visibility="gone"/>
+        
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/app_list_layout"
+        android:layout_below="@+id/rlyPer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/base_pull_load_list_layout2" />
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/fragment_score.xml -->

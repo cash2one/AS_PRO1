@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color">
+
+	<include layout="@layout/include_head"/>
+	
+	<com.linkage.ui.widget.PullToRefreshScrollView
+        android:id="@+id/mylayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativelayout1">
+	    
+	</com.linkage.ui.widget.PullToRefreshScrollView>
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_my_course.xml -->

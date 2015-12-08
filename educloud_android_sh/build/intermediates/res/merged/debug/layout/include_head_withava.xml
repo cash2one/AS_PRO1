@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout1"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/title_top_bg">
+    <com.linkage.mobile72.sh.widget.CircularImage 
+        android:id="@+id/user_avater"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/default_user"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView android:id="@+id/name"
+        android:layout_toRightOf="@+id/user_avater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="@string/login"/>
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="@string/login"/>
+    <ImageView 
+        android:id="@+id/indicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/title"
+        android:src="@drawable/jx_parent_choose_child_down"
+        android:visibility="gone"/>
+    <Button android:id="@+id/jia_button"
+        android:layout_width="@dimen/include_head_withava_jiabutton"
+        android:layout_height="27dip"
+        android:textSize="14sp"
+        android:gravity="center_vertical|right"
+        android:visibility="gone"
+        android:background="@color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:layout_marginRight="12dp"/>
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/include_head_withava.xml -->

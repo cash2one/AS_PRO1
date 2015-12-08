@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/title_bg_color" android:state_checked="true"/>
+    <item android:color="@android:color/black" />
+
+</selector>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/btn_top_text_selector.xml -->

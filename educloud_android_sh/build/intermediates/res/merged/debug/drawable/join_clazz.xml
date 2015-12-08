@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/join_clazz_open" android:state_checked="true"/>
+    <item android:drawable="@drawable/join_clazz_default" android:state_checked="false"/>
+
+</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/join_clazz.xml -->

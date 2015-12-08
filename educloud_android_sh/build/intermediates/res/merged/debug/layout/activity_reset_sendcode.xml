@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout1"
+        android:layout_marginTop="0dip" >
+
+        <ImageView
+            android:id="@+id/seperate_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_header"
+            android:layout_marginTop="0dip"
+            android:background="@drawable/seperate_line_2" />
+
+        <LinearLayout
+            android:id="@+id/layout_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/seperate_line1"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" >
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:src="@drawable/icon_phone_focus" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="9" >
+
+                <EditText
+                    android:id="@+id/input_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="2dip"
+                    android:background="@null"
+                    android:hint="请输入手机号码"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:nextFocusDown="@+id/input_password"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/activity_input_pass_edittext" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/seperate_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_phone"
+            android:background="@drawable/seperate_line_2" />
+
+        <LinearLayout
+            android:id="@+id/layout_code"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/seperate_line2"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0" >
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:src="@drawable/icon_password" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="9" >
+
+                <EditText
+                    android:id="@+id/input_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="2dip"
+                    android:background="@null"
+                    android:hint="请输入验证码"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:nextFocusDown="@+id/login"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/activity_input_pass_edittext" />
+
+                <Button
+                    android:id="@+id/get_code"
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="#8e8e8e"
+                    android:text="@string/get_code"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/seperate_line3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_code"
+            android:background="@drawable/seperate_line_2" />
+
+        <TextView
+            android:id="@+id/find_pw_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seperate_line3"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginTop="10dip"
+            android:text="验证码已发送"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/find_pw_tip_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seperate_line3"
+            android:layout_toRightOf="@+id/find_pw_tip"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginTop="10dip"
+            android:text="60"
+            android:textColor="#ff0000"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/find_pw_tip_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seperate_line3"
+            android:layout_toRightOf="@+id/find_pw_tip_1"
+            android:layout_marginLeft="0dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:text="秒，如超时未收到验证码，请重新获取"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/find_pw_tip"
+            android:layout_marginTop="20dip" >
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/button_login"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="@dimen/activity_input_pass_button" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_reset_sendcode.xml -->

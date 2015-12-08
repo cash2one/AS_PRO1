@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/include_head"/>
+    <RadioGroup 
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/relativelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal">
+        <RadioButton 
+            android:id="@+id/radio1"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radio_btn_white_gray"
+            android:text="未缴费"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+        <RadioButton 
+            android:id="@+id/radio2"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/radio_btn_white_gray"
+            android:text="已缴费"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </RadioGroup>
+	<FrameLayout
+	    android:layout_below="@+id/radioGroup"
+	    android:id="@+id/content"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	</FrameLayout>
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_my_payment.xml -->

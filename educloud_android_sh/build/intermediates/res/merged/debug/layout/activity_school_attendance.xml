@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#d8d8d8" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/include_head" />
+
+    <com.linkage.mobile72.sh.widget.calendar.CalendarPickerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calendar_height_fragment"
+        android:background="@color/custom_background"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/calendar_margin_bottom"
+        android:scrollbarStyle="outsideOverlay"
+        app:dayBackground="@drawable/custom_calendar_bg_selector"
+        app:dayTextColor="@color/custom_calendar_text_selector"
+        app:dividerColor="@color/transparent"
+        app:headerTextColor="@color/custom_header_text"
+        app:titleTextColor="@color/custom_calendar_text_selector" />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_school_attendance_count_height"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+        <TextView android:id="@+id/tvCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="38dp" />
+        
+        <TextView android:id="@+id/tvCountLeave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="38dp" />
+        
+        <TextView android:id="@+id/tvCountAbsenteeism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="38dp" />
+        
+        <Button android:id="@+id/btnOverviewBmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看照片"
+            android:background="@drawable/school_attendance_overviewbmp_selector" />
+    </LinearLayout>
+    
+	<ListView android:id="@+id/lvLeave"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="7" />
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_school_attendance.xml -->

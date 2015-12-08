@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/chat_date_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="2012年5月"
+            android:textColor="#919191"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/date_text"
+            android:src="@drawable/homelist_time_left" 
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/date_text"
+            android:src="@drawable/homelist_time_right" 
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/chat_message_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/msg_error"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/chat_msg_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_out_bg"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/chat_message_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:maxWidth="200dp"
+                    android:textSize="15.0sp" 
+                    android:textColor="@color/chat_out_text_color"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.linkage.mobile72.sh.widget.CircularImage
+            android:id="@+id/chat_avatar_image"
+              style="@style/chat_avatar"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/default_user" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/chat_message_out_text.xml -->

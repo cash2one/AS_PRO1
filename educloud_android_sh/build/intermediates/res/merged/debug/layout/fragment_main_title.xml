@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="#0082cc" >
+
+    <ImageView
+        android:id="@+id/main_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_title_left" 
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        />
+    
+      <TextView
+        android:id="@+id/main_title_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+      
+     <ImageView
+        android:id="@+id/main_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" 
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/title_btn_download"
+        android:visibility="gone"
+        />
+     
+     <ImageView
+        android:id="@+id/main_title_right_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" 
+        android:layout_toLeftOf="@id/main_title_right"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/title_btn_download"
+        android:visibility="gone"
+        />
+    
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/fragment_main_title.xml -->

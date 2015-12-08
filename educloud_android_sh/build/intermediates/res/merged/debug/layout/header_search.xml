@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/search_area_bg"
+    android:paddingBottom="5dip">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/search_input_bg"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="10dip"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginLeft="15dip"
+    	android:layout_marginRight="15dip"
+    	android:gravity="center">
+        <ImageView
+            android:src="@drawable/search_center_fdj_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/search"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/back"
+        android:visibility="gone"
+        android:layout_width="0dip"
+        android:layout_height="0dip" />
+    
+    <View
+        android:id="@+id/front"
+        android:visibility="gone"
+        android:layout_width="0dip"
+        android:layout_height="0dip" />
+</RelativeLayout>
+
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/header_search.xml -->

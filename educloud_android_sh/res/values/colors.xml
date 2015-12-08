@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="title_bg_color">#ff69d25c</color>
+    <color name="title_bg_color_parent">#ff90c6de</color>
+	<color name="titlebar_icon_bg_pressed">#0062ac</color>
+	<color name="intr_page_bg_teacher">#74D245</color>
+	<color name="intr_page_bg_parent">#68CCFA</color>
+	
+	<color name="semi_transparent">#7f000000</color>
+	<color name="half_transparent_black">#e0000000</color>
+	<color name="black">#ff000000</color>
+	<color name="black_little">#ff222222</color>
+	<color name="red">#ffff0000</color>
+	<color name="green">#ff00ff00</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="white">#ffffffff</color>
+	<color name="half_white">#80ffffff</color>
+	<color name="white_gray">#ffdcdddd</color>
+	<color name="dark_gray">#ffa9a9a9</color>
+	<color name="dark_green">#ff3D8B3E</color>
+	
+	<!-- <color name="tab_txt_press">#ff2da21e</color> -->
+	<color name="tab_txt_press">#60cdf6</color>
+	<color name="tab_txt_normal">#ff82858b</color>
+	
+	<color name="item_clazz_press">#ff99d9ea</color>
+	<color name="item_clazz_normal">#ffffffff</color>
+	
+	<color name="kaoqin_month_bg">#ff90c6de</color>
+	
+	<color name="my_payment_radio_unchecked_bg">#ffebebeb</color>
+	<color name="new_login_white_blue">#f6fcfe</color>
+	
+	<!-- New Version Colors -->
+	<color name="common_bg_color">#fff2f2f2</color>
+	<color name="common_tab_text_color">#808080</color>
+	<color name="text_color_blue">#ff52bde7</color>
+	<color name="search_area_bg">#ffebecee</color>
+	<color name="search_select_area_bg">#fff3f3f3</color>
+	<color name="list_divider">#ffe5e5e5</color>
+	<color name="text_with_underline">#ff2d7cbe</color>
+	<color name="info_key">#ff3e3e3e</color>
+	<color name="info_value">#ffa9b3b1</color>
+	
+	<color name="group_text">#aea7a7</color>
+	
+	<color name="chat_out_text_color">#2e2e2e</color>
+	<color name="chat_in_text_color">#2e2e2e</color>
+	
+	<color name="list_item_info_color">#787878</color>
+	<color name="list_item_line">#DADADA</color>
+	<color name="content_title_background">#f0eff4</color>
+	<!-- zxing scan -->
+	<color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <!-- zxing scan end -->
+
+    <color name="topic_background">#2DA21E</color>
+    <color name="subject_select_layout_bg">#F5F5F5</color>
+    <color name="d0d0d0">#D0D0D0</color>
+    <color name="blue_overlay">#880D92DD</color>
+    
+    <color name="vote_parent_item_normal">#F6F6F6</color>
+    <color name="vote_parent_item_checked">#E2E2E2</color>
+    <color name="jx_home_teacher_word_color">#5b5b5b</color>
+    <color name="jx_home_parent_homework_color">#aaaaaa</color>
+
+    <!-- 日历背景 -->
+    <color name="calendar_bg">#ffffffff</color>
+    <!-- 日历标题时间的颜色 -->
+    <color name="calendar_header_title">#6cbb14</color>
+    <!-- 日历分割线 -->
+  	<color name="calendar_divider">#7f778088</color>
+  	<!-- 星期的背景 -->
+  	<color name="calendar_week_bg">#ffffffff</color>
+    <!-- 当月日子的背景 -->
+    <color name="calendar_active_month_bg">#ffffffff</color>
+    <!-- 非当月日子的背景 -->
+  	<color name="calendar_inactive_month_bg">#ffffffff</color>
+    <!-- 点击日子的背景 -->
+  	<color name="calendar_selected_day_bg">#ff379bff</color>
+    <!-- 点击日子的文字颜色 -->
+    <color name="calendar_text_selected">#ff5b5b5b</color>
+    <!--  -->
+  	<color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <!--  -->
+  	<color name="calendar_selected_range_bg">#ff96caff</color>
+    <!--  -->
+  	<color name="calendar_text_inactive">#40778088</color>
+    <!--  -->
+  	<color name="calendar_text_active">#ffaea7a7</color>
+    <!--  -->
+  	<color name="calendar_text_unselectable">#7f778088</color>
+    <!--  -->
+  	<color name="calendar_text_normal">#949494</color>
+  	
+  	<!-- 考勤 -->
+  	<color name="custom_header_text">#85B100</color>
+  	<color name="custom_selected">#FFFFFF</color>
+  	<color name="custom_selected_bg">#f58710</color>
+  	<color name="custom_background">#f8f8f8</color>
+  	<color name="custom_background_today">#6cbb14</color>
+  	<color name="custom_background_disabled">#00000000</color>
+  	<color name="custom_background_today_normal">#FFFFFF</color>
+  	<color name="custom_background_today_normal_bg">#cccccc</color>
+  	<color name="custom_text_selected">#FFFFFF</color>
+  	<color name="custom_text_stated">#f58710</color>
+  	<color name="custom_text_today">#FFFFFF</color>
+  	<color name="custom_text_inactive">#7f778088</color>
+  	<color name="custom_text_photo">#69d25c</color>
+  	<color name="trans_black">#99000000</color>
+  	
+  	<color name="at_light_dark">#8b8b8b</color>
+    <color name="at_light_green">#7ed215</color>
+    <color name="at_light_red">#ed7554</color>
+    <color name="at_light_orange">#f7b551</color>
+    <color name="at_light_gray">#cbcbcb</color>
+    <color name="at_mid_gray">#696969</color>
+    
+  	<color name="color_qingjia">#e50d10</color>
+  	<color name="color_queqin">#f19149</color>
+  	
+  	<color name="left_menu_item_sel_bg">#353535</color>
+  	<color name="reset_pw_unclick">#e1e1e1</color>
+  	<color name="reset_pw_click">#8e8e8e</color>
+  	<color name="contact_tab_select">#013366</color>
+  	<color name="contact_tab_select2">#0992c6</color>
+  	
+  	<!-- 成绩统计 -->
+  	<color name="item_test_title_color">#000000</color>
+  	<color name="item_test_time_color">#a8a8a8</color>
+  	<color name="item_test_type_color">#787878</color>
+  	<color name="item_height_score_color">#f59055</color>
+	<color name="item_score_table_color">#60cdf6</color>
+  	
+  	<!-- app_detail -->
+    <color name="app_detail_title">#000000</color>
+    <color name="app_detail_text_normal">#999999</color>
+    <color name="app_detail_bg">#e1e1e1</color>
+    
+    <!-- 发作业 -->
+    <color name="create_homework_content">#454545</color>
+    
+    <!-- 今日话题 -->
+    <color name="topic_item_title">#000000</color>
+    <color name="topic_item_date">#a8a8a8</color>
+    <color name="topic_item_summary">#787878</color>
+    
+    <!-- 精彩活动 -->
+    <color name="wonder_exer_item_title">#000000</color>
+    <color name="wonder_exer_item_787878">#787878</color>
+    <color name="wonder_exer_item_60cdf6">#60cdf6</color>
+    
+    <color name="tk_mid_gray">#535353</color>
+    <color name="tk_mid_gray_dk">#313131</color>
+    <color name="tk_light_gray">#9d9d9d</color>
+    <color name="tk_dark_gray">#4b4b4b</color>
+    <color name="tk_llight_gray">#dedede</color>
+    <color name="register_tab_text_normal">#eeeeee</color>
+    <color name="ask_bg">#f0f0f0</color>
+    <color name="sc_org_bg">#f7b551</color>
+    <color name="sc_light_gray">#949494</color>
+    <color name="wonder_exercise_text_blue">#60CDF6</color>
+    
+    <!-- 体育模块-->
+    <color name="orange">#FFD306</color>
+    <color name="sports_green">#008818</color>
+    
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="gray_normal">#666667</color>
+</resources>

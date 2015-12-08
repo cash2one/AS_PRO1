@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="@color/half_transparent_black">
+	<include layout="@layout/include_head"/>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    <com.linkage.mobile72.sh.widget.ZoomableImageView 
+            android:id="@+id/zoomable_image"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"/>
+	    <LinearLayout 
+	        android:id="@+id/big_image_tool_bar"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginBottom="20.0dip"
+	        android:gravity="center"
+	        android:visibility="gone">
+	        <Button 
+	            android:id="@+id/ok_btn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/complete"
+	            android:background="@drawable/custom_dialog_btn_bg"/>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/big_image.xml -->

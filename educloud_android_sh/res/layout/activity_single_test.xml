@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    <include layout="@layout/include_head"/>
+    <RelativeLayout android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <com.linkage.mobile72.sh.widget.CircularImage
+            android:id="@+id/project_img" 
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+        <TextView android:id="@+id/project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/project_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="800米"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+         <TextView android:id="@+id/project_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/project_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="(已完成)"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+         <TextView android:id="@+id/project_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/project_name"
+            android:layout_toRightOf="@id/project_img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="200秒"
+            android:textColor="@color/sports_green"/>
+         <TextView android:id="@+id/project_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/project_name"
+            android:layout_toRightOf="@id/project_result"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="60分"
+            android:textColor="@color/sports_green"/>
+         
+          
+    </RelativeLayout>
+	<RelativeLayout android:id="@+id/edt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+          <LinearLayout android:id="@+id/result_edt_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="horizontal">
+             <TextView android:id="@+id/project_type_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="距离"
+	            android:textColor="@color/black"/>
+	        <EditText android:id="@+id/project_type_edt"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"/>
+	         <TextView android:id="@+id/project_unit_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:text="米"
+	            android:textColor="@color/black"/>
+          </LinearLayout>
+        
+         <Button android:id="@+id/submit_btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_below="@id/result_edt_layout"
+             android:layout_centerHorizontal="true"
+             android:text="开始计算"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <Chronometer android:id="@+id/chronometer"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginTop="30dp"
+          android:textColor="@android:color/black"
+          android:textSize="36sp"
+          android:text="@string/chronometer_text"/>
+      
+	      <LinearLayout 
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:orientation="horizontal"
+	          android:layout_below="@id/chronometer"
+	          android:layout_marginTop="20dp"
+	          android:layout_marginBottom="20dp">
+	          <Button android:id="@+id/time_start"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_weight="1"
+	              android:layout_marginLeft="35dp"
+	              android:layout_marginRight="35dp"
+	              android:text="@string/time_start_text"/>
+	          <Button android:id="@+id/time_end"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_marginLeft="35dp"
+	              android:layout_marginRight="35dp"
+	              android:layout_weight="1"
+	              android:text="@string/time_end_text"/>
+	      </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

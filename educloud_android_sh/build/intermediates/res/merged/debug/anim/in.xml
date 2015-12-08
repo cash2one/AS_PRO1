@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+ android:interpolator="@android:anim/accelerate_interpolator"
+>
+   <scale
+   		 android:fromXScale="0.1"
+   		 android:toXScale="1"
+   		 android:fromYScale="1.0"
+   		 android:toYScale="1.0"
+   		 android:duration="150"
+   		 android:pivotX="100%"
+   		 android:pivotY="100%"
+   		 android:startOffset="50">
+   	</scale>
+</set>
+<!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/anim/in.xml --><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/anim/in.xml -->

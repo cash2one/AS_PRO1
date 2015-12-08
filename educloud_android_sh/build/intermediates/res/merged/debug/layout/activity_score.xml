@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color">
+
+    <include layout="@layout/include_head"/>
+    
+    <!-- android:background="@color/register_tab_text_normal" -->
+
+     <RelativeLayout
+        android:id="@+id/category_bar2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sc_bar_height"
+        android:layout_below="@+id/relativelayout1"
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+		
+		<HorizontalScrollView
+		    android:id="@+id/scrollview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:fadingEdge="none"
+	        android:scrollbars="none" >
+	         <RadioGroup
+	             android:id="@+id/new_top_rg"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:background="@android:color/white"               
+	             android:orientation="horizontal">
+	         </RadioGroup>
+	     </HorizontalScrollView>
+	     <Button
+		    android:id="@+id/button_left"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/subject_indicator_left"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentLeft="true"/>
+         <Button
+		    android:id="@+id/button_right"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/subject_indicator_right"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+            
+    
+    <FrameLayout
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/category_bar2" >
+    </FrameLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_score.xml -->

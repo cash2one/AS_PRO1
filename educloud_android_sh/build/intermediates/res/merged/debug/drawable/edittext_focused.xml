@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="2dp" />
+
+    <stroke
+        android:width="1px"
+        android:color="#e1dfdf" />
+
+    <solid android:color="@color/white" />
+
+</shape><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/edittext_focused.xml -->

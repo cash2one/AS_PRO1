@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alarm">
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="choose_photo_method">
+        <item>拍照</item>
+        <item>图库</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="function_method">
+        <item>打开功能</item>
+        <item>移除功能</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="week">
+        <item>星期天</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <!-- <string-array name="topicname1"> -->
+    <!-- <item>家教大纲</item> -->
+    <!-- <item>政策法规</item> -->
+    <!-- <item>新婚期</item> -->
+    <!-- <item>特殊教育</item> -->
+    <!-- <item>育儿心得</item> -->
+    <!-- <item>0-3岁</item> -->
+    <!-- <item>3-6岁</item> -->
+    <!-- <item>7-12岁</item> -->
+    <!-- <item>13-15岁</item> -->
+    <!-- <item>16-18岁</item> -->
+    <!-- <item>卫生保健</item> -->
+    <!-- <item>生活常识</item> -->
+    <!-- <item>主题活动</item> -->
+    <!-- <item>名人名言</item> -->
+    <!-- <item>名著典籍</item> -->
+    <!-- <item>家教语丝</item> -->
+    <!-- <item>亲子乐园</item> -->
+    <!-- <item>七彩云南</item> -->
+    <!-- <item>民族风情</item> -->
+    <!-- <item>各地动态</item> -->
+    <!-- </string-array> -->
+    <string-array name="topicname">
+        <item>数学</item>
+        <item>语文</item>
+        <item>英语</item>
+        <item>教师风采</item>
+        <item>专家栏目</item>
+        <item>教育百科</item>
+        <item>孕期早教</item>
+        <item>小学教育</item>
+        <item>初中教育</item>
+        <item>高中教育</item>
+        <item>新闻资讯</item>
+        <item>每日推荐</item>
+    </string-array>
+    <string-array name="topicid">
+        <item>1002921</item>
+        <item>1002922</item>
+        <item>1002923</item>
+        <item>1002925</item>
+        <item>1002926</item>
+        <item>1002927</item>
+        <item>1002937</item>
+        <item>1002938</item>
+        <item>1002941</item>
+        <item>1002942</item>
+        <item>1002945</item>
+        <item>1002946</item>
+    </string-array>
+    <string-array name="topicname2">
+        <item>家教大纲</item>
+        <item>政策法规</item>
+        <item>完美孕期</item>
+        <item>特殊教育</item>
+        <item>育儿心得</item>
+        <item>婴儿早教</item>
+        <item>学前教育</item>
+        <item>小学教育</item>
+        <item>初中教育</item>
+        <item>高中教育</item>
+        <item>卫生保健</item>
+        <item>生活常识</item>
+        <item>主题活动</item>
+        <item>名人名言</item>
+        <item>名著典籍</item>
+        <item>家教语丝</item>
+        <item>亲子乐园</item>
+        <item>彩云之南</item>
+        <item>民族风情</item>
+        <item>各地动态</item>
+    </string-array>
+    <string-array name="topicid2">
+        <item>1005103</item>
+        <item>1005104</item>
+        <item>1005122</item>
+        <item>1005123</item>
+        <item>1005124</item>
+        <item>1005125</item>
+        <item>1005126</item>
+        <item>1005127</item>
+        <item>1005128</item>
+        <item>1005129</item>
+        <item>1005130</item>
+        <item>1005131</item>
+        <item>1005109</item>
+        <item>1005117</item>
+        <item>1005118</item>
+        <item>1005119</item>
+        <item>1005111</item>
+        <item>1005132</item>
+        <item>1005133</item>
+        <item>1005113</item>
+    </string-array>
+    <string-array name="homework_file_dialog">
+        <item>重发</item>
+        <item>删除</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="choose_chat_method_copy">
+        <item>复制</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="choose_chat_method_reply">
+        <!-- <item>重发</item> -->
+        <item>删除</item>
+    </string-array>
+    <string-array name="choose_chat_method_copyandreply">
+        <item>复制</item>
+        <item>重发</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="select_localname">
+        <item>南京</item>
+        <item>苏州</item>
+        <item>无锡</item>
+        <item>常州</item>
+        <item>镇江</item>
+        <item>扬州</item>
+        <item>泰州</item>
+        <item>南通</item>
+        <item>盐城</item>
+        <item>淮安</item>
+        <item>宿迁</item>
+        <item>连云港</item>
+        <item>徐州</item>
+    </string-array>
+
+    <string-array name="select_subject">
+        <item>语文</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>物理</item>
+        <item>化学</item>
+        <item>生物</item>
+        <item>政治</item>
+        <item>历史</item>
+        <item>地理</item>
+    </string-array>
+
+    <string-array name="select_schoolType">
+        <item>6年制小学</item>
+        <item>完全中学（3+3）</item>
+        <item>高级中学（3年）</item>
+        <item>初级中学（3年）</item>
+        <item>一贯制学校（6+3）</item>
+        <item>一贯制学校（5+4）</item>
+        <item>初级中学（4年）</item>
+        <item>完全中学（4+3）</item>
+        <item>全年级学校（6+3+3）</item>
+        <item>12年级学校</item>
+        <item>5年制高中</item>
+        <item>5年制小学</item>
+        <item>幼儿园</item>
+        <item>幼儿园+小学</item>
+        <item>全年级学校（3+6+6）</item>      
+    </string-array>
+    <string-array name="schoolType_id">
+    	<item >11</item>
+    	<item >21</item>
+    	<item >22</item>
+    	<item >23</item>
+    	<item >24</item>
+    	<item >25</item>
+    	<item >26</item>
+    	<item >27</item>
+    	<item >28</item>
+    	<item >29</item>
+    	<item >30</item>
+    	<item >100</item>
+    	<item >200</item>
+    	<item >201</item>
+    	<item >202</item>
+    </string-array>
+    
+    <string-array name="select_grade">
+        <item>幼班</item>
+        <item>小班</item>
+        <item>中班</item>
+        <item>大班</item>
+        <item>一年级</item>
+        <item>二年级</item>
+        <item>三年级</item>
+        <item>四年级</item>
+        <item>五年级</item>
+        <item>六年级</item>
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>高一</item>
+        <item>高二</item>
+        <item>高三</item>
+    </string-array>
+    <string-array name="grade_id">
+    	<item >1</item>
+    	<item >2</item>
+    	<item >3</item>
+    	<item >4</item>
+    	<item >5</item>
+    	<item >6</item>
+    	<item >7</item>
+    	<item >8</item>
+    	<item >9</item>
+    	<item >10</item>
+    	<item >11</item>
+    	<item >12</item>
+    	<item >13</item>
+    	<item >14</item>
+    	<item >15</item>
+    	<item >16</item>	
+    </string-array>
+</resources>

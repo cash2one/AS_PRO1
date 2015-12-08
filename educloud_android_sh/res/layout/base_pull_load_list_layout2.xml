@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <include
+        android:id="@+id/progress_container2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/base_loadingbar_layout2" />
+    <FrameLayout
+        android:id="@+id/list_container2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <include
+            android:id="@+id/base_pull_list2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/base_pull_list_layout2" />
+        <include
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/base_load_empty_layout2" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/common_bg_color">
+    <include layout="@layout/include_head" />
+     <com.baidu.mapapi.map.MapView android:id="@+id/bmapView"
+		android:layout_width="fill_parent" 
+		android:layout_height="250dp" 
+		android:clickable="true"/>
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@color/white">
+         <ImageView android:id="@+id/image_run"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_centerVertical="true" 
+             android:layout_marginLeft="20dp"/>
+         <TextView android:id="@+id/run_type_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/image_run"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:text="跑步"
+             android:textColor="@color/black"/>
+         <TextView android:id="@+id/run_distance_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/intelligence_test"
+             android:layout_below="@id/run_type_text"
+             android:layout_alignLeft="@id/run_type_text"/>
+          <TextView android:id="@+id/run_date_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             android:text="8月15日"/>
+     </RelativeLayout>
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@color/white">
+           <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_centerVertical="true"
+             android:text="@string/start_time_text"
+             android:textColor="@color/black"/>
+           <TextView android:id="@+id/start_time"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+               android:text="2015-04-12 12:20"/>
+     </RelativeLayout>
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@color/white">
+           <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_centerVertical="true"
+             android:text="@string/end_time_text"
+             android:textColor="@color/black"/>
+           <TextView android:id="@+id/end_time"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+               android:text="2015-04-12 12:20"/>
+     </RelativeLayout>
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@color/white">
+           <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_centerVertical="true"
+             android:text="@string/signal_strength_text"
+             android:textColor="@color/black"/>
+           <ImageView android:id="@+id/signal_img"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+               android:src="@drawable/icon1"/>
+     </RelativeLayout>
+     <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginTop="20dp">
+          <Button android:id="@+id/time_start"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:layout_marginLeft="35dp"
+              android:layout_marginRight="35dp"
+              android:text="@string/time_start_text"/>
+          <Button android:id="@+id/time_end"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="35dp"
+              android:layout_marginRight="35dp"
+              android:layout_weight="1"
+              android:text="@string/time_end_text"/>
+      </LinearLayout>
+
+</LinearLayout>

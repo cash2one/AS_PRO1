@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <EditText
+        android:id="@+id/share_comment_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/relativelayout1"
+        android:background="@color/white"
+        android:maxLength="100"
+        android:gravity="left|top"
+        android:hint="有什么事告诉大家?"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#535353"
+        android:textColorHint="#b6b6b6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/share_input_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/share_comment_edit"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:background="@color/white"
+        android:gravity="right|center_vertical"
+        android:paddingRight="10dp"
+        android:text="@string/share_input_tip"
+        android:textColor="#b6b6b6"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/share_input_tip"
+        android:background="#d6d6d6" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/share_icon"
+            android:layout_width="@dimen/topic_item_pic_width"
+            android:layout_height="@dimen/topic_item_pic_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/default_today_topic_item"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/share_icon"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#272727"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_share.xml -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+	    android:id="@+id/relativelayout1"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/title_top_bg_green">
+	    <Button android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/title_back"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/title_back_margin_left"/>
+
+	        <TextView 
+	        android:id="@+id/tvTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:text="@string/atten_photo"
+	        android:textColor="@color/white"
+	        android:textSize="18sp"/>
+	    
+	</RelativeLayout>
+	
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	        
+        <!-- <com.android.volley.toolbox.NetworkImageView  -->
+        <ImageView
+        android:id="@+id/img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"/>
+        
+        <LinearLayout 
+            android:id="@+id/lyBtns"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="@color/trans_black"
+            android:clickable="true"
+            android:focusable="true">
+            
+            <TextView
+            android:id="@+id/btnReTake"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/retake_photo"
+            android:textColor="@drawable/atten_text_selector"
+            android:textSize="16sp"/>
+            
+            <TextView
+            android:id="@+id/btnDelPhoto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_weight="1"
+            android:text="@string/del_photo"
+            android:textColor="@drawable/atten_text_selector"
+            android:gravity="center"
+            android:textSize="16sp"/>
+            
+        </LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/atten_dsp_photo.xml -->

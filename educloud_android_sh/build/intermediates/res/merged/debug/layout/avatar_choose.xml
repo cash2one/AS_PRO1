@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyDlg"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"	
+	android:orientation="vertical" 
+	android:background="@android:color/transparent">
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="240dip"
+		android:background="@android:color/transparent">
+		<Button android:id="@+id/btnAskLeave"
+			android:layout_width="fill_parent"
+			android:layout_height="50dip"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:background="@drawable/atten_btn_up_selector"
+			android:text="@string/ask_for_leave"
+			android:textColor="@color/at_light_green"
+			android:textSize="18sp"/>
+		<Button android:id="@+id/btnLeave"
+			android:layout_width="fill_parent"
+			android:layout_height="50dip"
+			android:layout_below="@id/btnAskLeave"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:background="@drawable/atten_btn_center_selector"
+			android:text="@string/no_atten"
+			android:textColor="@color/at_light_green"
+			android:textSize="18sp"/>		
+		<Button android:id="@+id/btnPhone"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:layout_below="@id/btnLeave"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:background="@drawable/atten_btn_down_selector"
+			android:text="@string/atten_call"
+			android:textColor="@color/at_light_green"
+			android:textSize="18sp"/>	
+		<Button android:id="@+id/btnCancel"
+			android:layout_width="match_parent"
+			android:layout_height="40dip"
+			android:layout_below="@id/btnPhone"
+			android:layout_marginTop="15dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:text="@string/CANCEL"
+			android:textColor="@color/red"
+			android:textSize="18sp"
+			android:background="@drawable/atten_btn_single_selector"/>		
+	</RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/avatar_choose.xml -->

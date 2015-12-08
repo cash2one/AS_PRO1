@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyDlg"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"	
+	android:orientation="vertical" 
+	android:background="@android:color/transparent">
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="140dip"
+		android:background="@android:color/transparent">
+		<Button android:id="@+id/btnDelete"
+			android:layout_width="fill_parent"
+			android:layout_height="50dip"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:background="@drawable/atten_btn_up_selector"
+			android:text="@string/delete"
+			android:textColor="@color/tk_dark_gray"
+			android:textSize="18sp"/>
+		<Button android:id="@+id/btnCancel"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:layout_below="@id/btnDelete"
+			android:layout_marginTop="15dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
+			android:text="@string/CANCEL"
+			android:textColor="@color/red"
+			android:textSize="18sp"
+			android:background="@drawable/atten_btn_single_selector"/>		
+	</RelativeLayout>
+
+</LinearLayout>

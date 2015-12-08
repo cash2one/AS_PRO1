@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlyTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_top_bg_green" >
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/write_tale"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPublish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="@string/publish"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/rlyTitle"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="@string/talk_what"
+        android:padding="10dp"
+        android:textColorHint="@color/tk_light_gray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvInputTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edInput"
+        android:background="@color/white"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="@string/total_word"
+        android:textColor="@color/tk_mid_gray"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/linel"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvInputTotal"
+        android:background="#d6d6d6" />
+
+    <FrameLayout
+        android:id="@+id/flyPic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linel"
+        android:layout_marginTop="10dp" >
+
+        <GridView
+            android:id="@+id/pic_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:cacheColorHint="#00000000"
+            android:columnWidth="55dp"
+            android:horizontalSpacing="4dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:verticalSpacing="4dp"
+            android:visibility="visible" >
+        </GridView>
+
+        <RelativeLayout
+            android:id="@+id/video_layout"
+            android:layout_width="244px"
+            android:layout_height="188px"
+            android:layout_marginLeft="10dp" 
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgVideo"
+                android:layout_width="216px"
+                android:layout_height="160px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/sc_empty"
+                 />
+
+            <ImageView
+                android:id="@+id/video_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                
+                android:background="@drawable/video_del"
+                 />
+            
+             <ImageView
+                android:id="@+id/video_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/video_play"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+    <!-- </RelativeLayout> -->
+
+    <RelativeLayout
+        android:id="@+id/rlySend"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/clz_list" />
+
+        <TextView
+            android:id="@+id/tvSendClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imgSend"
+            android:paddingBottom="8dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:paddingTop="8dp"
+            android:text="分享到"
+            android:textColor="@color/blue_overlay"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSendAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tvSendClass"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:paddingBottom="8dp"
+            android:paddingLeft="6dp"
+            android:paddingTop="8dp"
+            android:visibility="gone"
+            android:textColor="@color/tk_light_gray"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_talk.xml -->

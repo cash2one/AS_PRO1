@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/common_list_item_bg"
+    android:orientation="vertical">
+     
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+    
+    <TextView 
+        android:id="@+id/tvTestName"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:singleLine="true"
+		android:ellipsize="end"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+    
+    <TextView 
+        android:id="@+id/tvScore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="right"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/tab_txt_press"/>
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+		<TextView 
+		   android:id="@+id/tvDate"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_alignParentLeft="true"
+		   android:layout_centerVertical="true"
+		   android:textSize="@dimen/sc_frg_sum_text_size"
+		   android:textColor="@color/sc_light_gray"/>
+		<TextView 
+		   android:id="@+id/tvAver"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_alignParentRight="true"
+		   android:layout_centerVertical="true"
+		   android:layout_marginTop="8dp"
+		   android:textSize="@dimen/sc_frg_sum_text_size"
+		   android:textColor="@color/sc_light_gray"/>
+		<TextView 
+		   android:id="@+id/tvMax"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:layout_toLeftOf="@+id/tvAver"
+		   android:layout_marginRight="5dp"
+		   android:layout_centerVertical="true"
+		   android:layout_marginTop="8dp"
+		   android:textSize="@dimen/sc_frg_sum_text_size"
+		   android:textColor="@color/sc_light_gray"/>
+    </RelativeLayout>
+</LinearLayout>

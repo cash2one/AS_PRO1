@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_head" />
+
+    <FrameLayout
+        android:layout_below="@+id/relativelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <include
+            android:id="@+id/progress_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/base_loadingbar_layout" />
+        <FrameLayout
+            android:id="@+id/list_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <ExpandableListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"/>
+            <include
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/base_load_empty_layout" />
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

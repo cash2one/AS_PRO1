@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/common_list_item_bg"
+    android:descendantFocusability= "blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+	    <ImageView
+	        android:id="@+id/image_newapp"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:layout_centerInParent="true"
+	        android:scaleType="centerCrop"/>
+	</RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="3.2"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/newapp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/newapp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="#aea7a7"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/newapp_downnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#aea7a7"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.2"
+        android:gravity="center"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/app_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="TextView"
+            android:textColor="#aea7a7"
+            android:textSize="15sp" />
+	    <Button
+	        android:id="@+id/btn_newapp"
+	        android:layout_below="@+id/app_price"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center"
+	        android:focusable="false"
+	        android:background="@drawable/app_list_item_btn"
+	        android:text="@string/download"
+	        android:textColor="#ff932f"
+	        android:textSize="13sp" />
+	</RelativeLayout>
+</LinearLayout>

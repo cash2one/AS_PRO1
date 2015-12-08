@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+	    android:id="@+id/relativelayout1"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/title_top_bg_green">
+	    <Button android:id="@+id/back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/title_back"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/title_back_margin_left"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_centerInParent="true">
+	        <TextView 
+		        android:id="@+id/title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:textColor="@color/white"
+		        android:textSize="18sp"/>
+	    
+		    <ImageView 
+		        android:id="@+id/indicate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="3dp"
+		        android:src="@drawable/jx_parent_choose_child_down"
+		        android:visibility="gone"/>
+	    </LinearLayout>
+	    
+	    <Button 
+	        android:id="@+id/set"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="12dp"
+	        android:text="@string/add_pic"
+	        android:textColor="@color/white"
+	        android:textSize="15sp"/>
+	</RelativeLayout>
+	
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativelayout1"
+        android:background="@color/white_gray"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/btn_left"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/btn_left" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:text="textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/btn_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.linkage.mobile72.sh.widget.calendar.CalendarPickerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_below="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        app:dayBackground="@drawable/calendar_bg_selector"
+        app:dayTextColor="@color/calendar_text_selector"
+        app:dividerColor="@color/calendar_divider"
+        app:headerTextColor="@color/calendar_divider"
+        app:titleTextColor="@color/white" />
+    <LinearLayout 
+        android:id="@+id/kaoqin_survey_state_layout"
+        android:layout_below="@+id/calendar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="invisible">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:textSize="16sp"
+	            android:textColor="#5e5e5e"
+	            android:text="总人数"/>
+	        <TextView
+	            android:id="@+id/kaoqin_survey_zs"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#74d245"
+	            android:text="2"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"
+	            android:textColor="#5e5e5e"
+	            android:text="人，"/>
+	        <TextView
+	            android:id="@+id/kaoqin_survey_qj"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#e50d10"
+	            android:text="2"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"
+	            android:textColor="#5e5e5e"
+	            android:text="人请假，"/>
+	        <TextView
+	            android:id="@+id/kaoqin_survey_qq"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="18sp"
+	            android:textColor="#f19149"
+	            android:text="2"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="16sp"
+	            android:textColor="#5e5e5e"
+	            android:text="人缺勤"/>
+	    </LinearLayout>
+	    <RelativeLayout android:layout_width="0dp"
+	        android:layout_weight="1.5"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical">
+	        <Button android:id="@+id/kaoqin_survey_show_photo_btn"
+	            android:layout_width="fill_parent"
+	            android:layout_margin="5dp"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/search_btn_bg"
+	            android:layout_centerInParent="true"
+	            android:textColor="@color/white"
+	            android:textSize="14sp"
+	            android:text="查看图片"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/kaoqin_state_layout"
+        android:layout_below="@+id/kaoqin_survey_state_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        
+    </LinearLayout>
+    
+</RelativeLayout>
+</ScrollView>

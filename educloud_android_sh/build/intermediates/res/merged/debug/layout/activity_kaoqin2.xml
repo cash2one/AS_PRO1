@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/include_head" />
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativelayout1"
+        android:background="@color/white_gray"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/btn_left"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/btn_left" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:text="textview"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/btn_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/btn_right" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.linkage.mobile72.sh.widget.calendar.CalendarPickerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_below="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        app:dayBackground="@drawable/calendar_bg_selector"
+        app:dayTextColor="@color/calendar_text_selector"
+        app:dividerColor="@color/calendar_divider"
+        app:headerTextColor="@color/calendar_divider"
+        app:titleTextColor="@color/white" />
+    <RelativeLayout 
+        android:id="@+id/kaoqin_survey_state_layout"
+        android:layout_below="@+id/calendar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/common_list_item_bg"
+        android:visibility="invisible">
+        <TextView
+            android:id="@+id/kaoqin_survey_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="按时到校"/>
+        <Button android:id="@+id/kaoqin_survey_show_photo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_btn_bg"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="查看图片"/>
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/kaoqin_state_layout"
+        android:layout_below="@+id/kaoqin_survey_state_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="invisible">
+        <TextView
+            android:id="@+id/kaoqin_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#f19149"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="请假"/>
+        <TextView android:id="@+id/kaoqin_state_operate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#68ccfa"
+            android:textSize="16sp"
+            android:text="取消请假"/>
+        <TextView android:id="@+id/kaoqin_state_reason"
+            android:layout_below="@+id/kaoqin_state"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:textColor="#b7b7b7"
+            android:text="我因为什么请假我因为什么请假我因为什么请假我因为什么请假我因为什么请假我因为什么请假我因为什么请假"/>
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_kaoqin2.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color">
+	<com.linkage.ui.widget.PullToRefreshListView
+	    android:id="@+id/pullToRefreshListView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:divider="@null"
+	    android:cacheColorHint="#00000000">
+	</com.linkage.ui.widget.PullToRefreshListView>
+	
+	<TextView
+		    android:id="@+id/empty"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:text="暂无数据" />
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/fragment_clazz_dynamic.xml -->

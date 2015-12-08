@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_list_item_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="fill_parent">
+	    <com.linkage.mobile72.sh.widget.CircularImage
+	        android:id="@+id/avatar"
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:layout_centerInParent="true"
+	        android:layout_marginBottom="10dip"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginTop="10dip"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/default_user" />
+	</RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="fill_parent">
+	    <TextView
+	        android:id="@+id/text_desc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/adapter_join_group_list_item_margin_left"
+	        android:layout_marginTop="10dp"
+	        android:text="ccc"
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/list_text_name_size" />
+	
+	    <TextView
+	        android:id="@+id/user_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/text_desc"
+	        android:layout_marginLeft="@dimen/adapter_join_group_list_item_margin_left"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/me_ic_pwd"
+	        android:textColor="@color/list_item_info_color"
+	        android:textSize="@dimen/list_text_desc_size" />
+	</RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="fill_parent">
+	    <TextView
+	        android:id="@+id/text_count"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="@dimen/adapter_join_group_list_item_margin_right"
+	        android:layout_marginBottom="10dp"
+	        android:text="ccc"
+	        android:textColor="@color/list_item_info_color"
+	        android:textSize="@dimen/list_text_desc_size" />
+	</RelativeLayout>
+</LinearLayout>

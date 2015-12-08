@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!-- <TextView
+        android:id="@+id/reply_from_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingLeft="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/text_color_blue"
+        android:textSize="15sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/at_light_dark"
+        android:textSize="15sp"
+        android:text="回复" />
+
+    <TextView
+        android:id="@+id/reply_to_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_blue"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textSize="15sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/at_light_dark"
+        android:textSize="15sp"
+        android:text="：" /> -->
+
+    <TextView
+        android:id="@+id/reply_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/at_light_dark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="15sp"
+    	android:background="@drawable/reply_list_item_bg"
+        android:text="TextView" />
+
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/item_talk_reply.xml -->

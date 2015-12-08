@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="false" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <SurfaceView
+                android:id="@+id/surfaceview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="14px"
+                android:layout_alignParentBottom="true" 
+                android:progressDrawable="@drawable/rec_progress"/>
+            
+            <com.linkage.ui.widget.video.VerticalSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="20dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:progressDrawable="@drawable/seekbar_img"
+                android:thumb="@drawable/media_player_progress_button"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/layout/movie_recorder_view.xml -->

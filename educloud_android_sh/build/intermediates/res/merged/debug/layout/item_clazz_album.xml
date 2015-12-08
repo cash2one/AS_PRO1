@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp" >
+
+    <com.linkage.ui.widget.ScaleImageButton
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:scaleType="center"
+        android:src="@color/white" />
+
+    <Button
+        android:id="@+id/no_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:visibility="gone"
+        android:background="#00ffffff"
+        android:textColor="@color/at_mid_gray"
+        android:text="暂无图片资源" />
+
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/item_clazz_album.xml -->

@@ -1,0 +1,9 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rounded_corners_bg"
+    android:divider="@null"
+    android:listSelector="#00ffffff" >
+
+</ListView><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/dialog_select_clazz.xml -->

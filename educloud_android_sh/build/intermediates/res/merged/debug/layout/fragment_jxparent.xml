@@ -1,0 +1,315 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg_color" >
+
+    <include layout="@layout/include_head_withava" />
+
+    <com.linkage.ui.widget.PullToRefreshScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativelayout1"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/today_topic_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="130dp" />
+
+            <LinearLayout
+                android:id="@+id/tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/today_topic_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/homework_layout"
+                android:layout_below="@+id/today_topic_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/common_list_item_bg" >
+
+                <ImageView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/jxhd_homework" />
+
+                <ImageView
+                    android:id="@+id/image_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:src="@drawable/jx_parent_homework_new"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="作业"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/textView1"
+                    android:layout_toLeftOf="@+id/imageView"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/jx_home_parent_homework_color"
+                    android:textSize="14sp" />
+                <ImageView 
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indicator_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/notice_layout"
+                android:layout_below="@+id/homework_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/common_list_item_bg" >
+
+                <ImageView
+                    android:id="@+id/notice_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jxhd_notice" />
+
+                <ImageView
+                    android:id="@+id/notice_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    android:src="@drawable/unread_bg" />
+
+                <TextView
+                    android:id="@+id/textView_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/notice_image"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="通知"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+				<ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indicator_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/comment_layout"
+                android:layout_below="@+id/notice_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/common_list_item_bg" >
+
+                <ImageView
+                    android:id="@+id/comment_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jxhd_comment" />
+
+                <ImageView
+                    android:id="@+id/comment_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    android:src="@drawable/unread_bg" />
+
+                <TextView
+                    android:id="@+id/textView_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/comment_image"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="点评"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <!-- TextView
+                    android:id="@+id/textView_kaoqing_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_kaoqing"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/image"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="请假,安全,节假日,开学"
+                    android:textColor="@color/jx_home_parent_homework_color"
+                    android:textSize="14sp" /-->
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indicator_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+			
+            <RelativeLayout
+                android:id="@+id/score_layout"
+                android:layout_below="@+id/comment_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/common_list_item_bg" >
+
+                <ImageView
+                    android:id="@+id/score_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jxhd_score" />
+
+                <ImageView
+                    android:id="@+id/score_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    android:src="@drawable/unread_bg" />
+
+                <TextView
+                    android:id="@+id/textView_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/score_image"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="成绩"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+				<ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indicator_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/attend_layout"
+                android:layout_below="@+id/score_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/common_list_item_bg" >	
+
+                <ImageView
+                    android:id="@+id/attend_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/jxhd_records" />
+
+                <ImageView
+                    android:id="@+id/attend_remind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone"
+                    android:src="@drawable/unread_bg" />
+
+                <TextView
+                    android:id="@+id/textView_attend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/attend_image"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="考勤"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+				<ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indicator_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.linkage.ui.widget.PullToRefreshScrollView>
+
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/fragment_jxparent.xml -->

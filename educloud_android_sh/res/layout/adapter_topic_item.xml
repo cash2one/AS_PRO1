@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="@drawable/topic_item_selector" >
+
+    <LinearLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/topic_item_margin_top"
+        android:paddingLeft="@dimen/topic_item_margin_top" >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topic_item_margin_top"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="王翔加盟：小米补“芯”又胜一筹？我有一头小麦率我从来也不骑"
+            android:textColor="@color/topic_item_title"
+            android:textSize="@dimen/topic_item_title" />
+
+        <TextView
+            android:id="@+id/item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topic_item_margin_top"
+            android:text="2015年06月11日"
+            android:textColor="@color/topic_item_date"
+            android:textSize="@dimen/topic_item_date" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topic_item_margin_top"
+            android:orientation="horizontal" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/item_pic"
+                android:layout_width="@dimen/topic_item_pic_width"
+                android:layout_height="@dimen/topic_item_pic_height"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/item_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/topic_item_pic_height"
+                android:layout_marginLeft="@dimen/topic_item_margin_top"
+                android:layout_marginRight="@dimen/topic_item_margin_top"
+                android:gravity="center_vertical"
+                android:ellipsize="end"
+                android:lines="4"
+                android:text="近期，国内手机圈可谓的举措或多或少都将竞争的矛头指。"
+                android:textColor="@color/topic_item_summary"
+                android:textSize="@dimen/topic_item_summary" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/frame"
+        android:background="@color/dark_gray" />
+
+    <LinearLayout
+        android:id="@+id/reply_read"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topic_item_bottom_height"
+        android:layout_below="@id/line"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/item_commentNumLy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/today_topic_item_commentnum_icon" />
+
+            <TextView
+                android:id="@+id/item_commentNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/topic_item_bottom_gap"
+                android:text="评论(8888万)"
+                android:textColor="@color/topic_item_summary"
+                android:textSize="@dimen/topic_item_title" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/topic_item_title"
+            android:layout_below="@id/frame"
+            android:background="@color/dark_gray" />
+
+        <LinearLayout
+            android:id="@+id/item_readNumLy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/today_topic_item_readnum_icon" />
+
+            <TextView
+                android:id="@+id/item_readNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/topic_item_bottom_gap"
+                android:text="阅读(66666万)"
+                android:textColor="@color/topic_item_summary"
+                android:textSize="@dimen/topic_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/reply_read"
+        android:background="@color/common_bg_color" />
+
+</RelativeLayout>

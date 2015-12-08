@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/front"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/common_list_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <ImageView
+            android:id="@+id/image_newapp"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="2dp"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/image_newapp"
+            android:layout_toLeftOf="@+id/delapp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/newapp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/item_newapp_text_name_size" />
+
+            <TextView
+                android:id="@+id/newapp_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="TextView"
+                android:textColor="#aea7a7"
+                android:textSize="@dimen/item_newapp_text_desc_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/app_delete" />
+    </RelativeLayout>
+
+</LinearLayout>

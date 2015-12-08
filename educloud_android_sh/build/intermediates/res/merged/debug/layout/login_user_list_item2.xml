@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/local_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/local_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_list_item_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginLeft="50dp"
+    android:padding="8dp" > 
+    
+    
+         <TextView 
+            android:id="@+id/tvUsType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toRightOf="@+id/imgHead"
+            android:layout_marginLeft="5dp"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/activity_input_pass_edittext"/>
+        
+        <TextView 
+            android:id="@+id/tvUsPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvUsType"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/activity_input_pass_edittext"
+            android:text="13775896263"/> -->
+        
+        <LinearLayout
+            android:id="@+id/layout_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" 
+            android:background="@drawable/common_list_item_bg"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" >
+
+                <!-- <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_account_focus"
+                    android:visibility="invisible" /> -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="9" >
+                
+                <TextView 
+	            android:id="@+id/tvUsPhone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="20dp"
+	            android:paddingLeft="3dp"
+	            android:paddingTop="8dp"
+	            android:paddingBottom="8dp"
+	            android:paddingRight="8dp"
+	            android:layout_centerVertical="true"
+	            android:gravity="center"
+	            android:textColor="@android:color/black"
+	            android:textSize="@dimen/activity_input_pass_edittext"
+	            android:text="13775896263"/>
+                
+                <ImageView 
+                     android:id="@+id/imgHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/delete_account"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+       </LinearLayout>
+        
+        
+
+</RelativeLayout>
+
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/login_user_list_item2.xml -->

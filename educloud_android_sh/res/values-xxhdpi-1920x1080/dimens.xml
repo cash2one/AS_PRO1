@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_login_username_height">150px</dimen>
+    <dimen name="activity_login_password_height">150px</dimen>
+    <dimen name="slidingmenu_offset">220px</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 页面头部标题文字尺寸 -->
+    <dimen name="common_title_size">48px</dimen>
+    <dimen name="common_semi_title_size">12sp</dimen>
+    <dimen name="common_text_size">18sp</dimen>
+    <dimen name="common_item_height_big">70dip</dimen>
+    <dimen name="common_item_height">50dip</dimen>
+
+    <dimen name="common_margin_left">20dip</dimen>
+    <dimen name="common_margin_right">20dip</dimen>
+
+    <dimen name="title_back_margin_left">20px</dimen>
+    <dimen name="choose_school_bg_height">120px</dimen>
+    
+    <dimen name="clazz_set_info_height">240px</dimen>
+    <dimen name="clazz_set_group_height">310px</dimen>
+    <dimen name="clazz_set_margin_left">30px</dimen>
+    <dimen name="clazz_set_btn_margin_top">80px</dimen>
+
+    <dimen name="list_text_name_size">18sp</dimen>
+    <dimen name="list_text_desc_size">12sp</dimen>
+
+    <dimen name="normal_gray_text_size">40px</dimen>
+    <dimen name="chat_content_margin_left">30px</dimen>
+    <dimen name="head_fragment_app_newapp_word_size">16sp</dimen>
+    <dimen name="item_newapp_text_name_size">35px</dimen>
+    <dimen name="item_newapp_text_desc_size">27px</dimen>
+
+    <!-- 家校互动 -->
+    <!-- 详情 -->
+    <dimen name="jxhd_detail_photo_width">430px</dimen>
+    <dimen name="jxhd_detail_photo_height">230px</dimen>
+    
+    <dimen name="activity_app_launch_item_margin">10dp</dimen>
+    <dimen name="activity_app_launch_margin">160dp</dimen>
+    <dimen name="activity_app_launch_padding_top">20dp</dimen>
+    <dimen name="activity_app_launch_padding_bottom">20dp</dimen>
+    <dimen name="activity_search_person_margin">10dp</dimen>
+    <dimen name="adapter_join_group_list_item_margin_left">10dp</dimen>
+    <dimen name="adapter_join_group_list_item_margin_top">5dp</dimen>
+    <dimen name="adapter_join_group_list_item_margin_right">15dp</dimen>
+    <dimen name="sc_bar_height">50dip</dimen>
+    <dimen name="sc_frg_type_heght">50dp</dimen>
+    <dimen name="sc_frg_linechart_width">600dp</dimen>
+    <dimen name="sc_frg_sum_text_size">16sp</dimen>
+    
+    <!-- 仲海峰 新增 -->
+    <dimen name="include_head_withava_jiabutton">90dp</dimen>
+    <dimen name="new_friends_item_textmargin">10dp</dimen>
+    <dimen name="activity_input_pass_linearlayout_height">150px</dimen>
+    <dimen name="activity_input_pass_edittext">16sp</dimen>
+    <dimen name="activity_input_pass_relativelayout_margin">30dip</dimen>
+    <dimen name="activity_input_pass_button">18sp</dimen>
+    <dimen name="activity_login_relativelayout_height">100dip</dimen>
+    <dimen name="activity_login_circularimage">80dip</dimen>
+    <dimen name="activity_register_finish_relativelayout_magin">70dip</dimen>
+    <dimen name="activity_register_sendcode_relativelayout_margin">30dip</dimen>
+    <dimen name="head_fragment_app_framelayout_height">180dp</dimen>
+    <dimen name="head_fragment_app_horizontalscrollView_height">110dp</dimen>
+    <dimen name="item_app_installed_image">70dp</dimen>
+    <dimen name="item_app_installed_text">13sp</dimen>
+    <dimen name="item_newapp_relativelayout_height">90dp</dimen>
+    <dimen name="item_newapp_imageview">70dp</dimen>
+    <dimen name="item_newapp_button_margin">5dp</dimen>
+    
+    <dimen name="atten_line_height">70dp</dimen>
+    
+    <dimen name="atten_pie_width">590px</dimen>
+    
+    <!-- 发作业 -->
+    <dimen name="create_homework_text">45px</dimen>
+    <dimen name="create_homework_height">132px</dimen>
+    <dimen name="create_homework_left">36px</dimen>
+    <dimen name="create_homework_right">36px</dimen>
+    <dimen name="create_homework_edit_padding">30px</dimen>
+    <dimen name="create_homework_mb_margin">36px</dimen>
+    <dimen name="create_homework_edit_layout_margin">63px</dimen>
+    <dimen name="create_homework_edit_height">345px</dimen>
+</resources>

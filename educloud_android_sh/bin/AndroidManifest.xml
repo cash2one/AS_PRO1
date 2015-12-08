@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linkage.mobile72.sh"
+    android:versionCode="300000"
+    android:versionName="3.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission  android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission  android:name="android.permission.ACCESS_FINE_LOCATION" />    
+    <uses-permission  android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission  android:name="android.permission.RECEIVE_BOOT_COMPLETED" />   
+    <uses-permission  android:name="android.permission.GET_ACCOUNTS" />   
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"  />    
+    <uses-permission  android:name="android.permission.MANAGE_ACCOUNTS" />  
+    <uses-permission  android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"  />
+    <uses-permission  android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission  android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission  android:name="android.permission.WIRTE_EXTERNAL_STORAGE" />
+    <uses-permission  android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.linkage.mobile72.sh.app.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/app_theme" >      
+        
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
+        <meta-data  
+            android:name="com.baidu.lbsapi.API_KEY"  
+            android:value="B9pr6dI6TUVYGwEk7aC0grcm" />
+        <!-- jOPqXM1GTCnNxW4tMqrNRwEp -->
+        <!-- B9pr6dI6TUVYGwEk7aC0grcm -->
+        
+        <meta-data android:name="UMENG_APPKEY" android:value="55f14e4de0f55abfe4003c76"></meta-data>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.UserGuideActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AlterPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.register.Validate_SmsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.register.InputPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.register.Register_SendCodeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.register.Register_FinishActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.register.Reset_SendCodeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.NewFriendsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.NewFriendsInGroupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JoinClazzActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AccountPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzMemberActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.TodayTopicActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzMemberApplyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzMyNickActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzAvatarActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzNameActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.InviteFriendActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.im.NewChatActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.im.ChatsActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.BrowseImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.MyPaymentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzPaymentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PaymentTypeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PaymentDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SearchGroupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SearchGroupResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SearchPersonActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SearchPersonResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.LocalSearchResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.CreateGroupActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SelectSchoolActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzManageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzMyNickEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PersonalInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PersonalInfoEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SetActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ApplyToTeacherActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.OpinionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SchoolTypeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.GradeChooseActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AboutUsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.LocalAddressActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SchoolContactActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClassContactActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.QrCaptureActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.QrCaptureResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AppDetailActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="app.teacher"
+                    android:pathPrefix="/app"
+                    android:scheme="educloud" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AppLaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SelectCitylActivity"
+            android:label="@string/title_activity_search_school" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxOfficesmsListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkListActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkListActivity3"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxMbManagerListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SearchMbResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.CreateHomeworkActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.CreateCommentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.CreateNoticeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.CreateOfficesmsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AddVoteActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SelectReceiverActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.SelectSubjectActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.utils.multipic.ImgFileListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.utils.multipic.ImgsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PictureReviewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.PictureReviewNetActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JFRuleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.TabJiaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkDetailActivity2"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxHomeworkDetailActivity3"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.JxMbDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.MyContactActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.MyJifenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.MyJifenRuleActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.NotifyReplyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.NotifyReadActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.VoteDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.VoteSubmitActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.VoteSubmitResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AppFragment"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AppManagerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.WebViewAdActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.WebViewHtHdActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.KaoqinActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AttenActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AttenPhotoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzScoreActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzScoreDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzTalkActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.manager.DialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.AttenSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.TakePhotoSplashActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.GradeDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzChooseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.WonderExerciseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.OTTPullActitvity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.ConfirmPaymentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.AdvActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.NewWebViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.TopicDetailActivity"
+            android:screenOrientation="portrait"/>
+		
+		 <activity
+            android:name="com.linkage.mobile72.sh.activity.ImgDisplayActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.fragment.ClazzTalkFragment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        
+        		    	<activity
+            android:name="com.linkage.mobile72.sh.activity.WriteTalkActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+    	
+    	<activity
+            android:name="com.linkage.mobile72.sh.activity.PickVideoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+    	<activity
+            android:name="com.linkage.mobile72.sh.activity.SelectClassActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+    	<activity
+            android:name="com.linkage.mobile72.sh.activity.TopicShareActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+    	<activity
+            android:name="com.linkage.mobile72.sh.activity.NewBrowseImageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzTalkDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.ClazzInviteActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.SportsActivity1"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.MapPatternActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.AllTestActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.TestStandradActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.LocationDemo"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.PathPatternActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+		
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.sports.SingleTestActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+    	
+		     
+		<activity
+            android:name="com.linkage.mobile72.sh.activity.ShowBigPic"
+            android:screenOrientation="portrait"/>
+		
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ChatActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" 
+            android:exported="true"/>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ScoreActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.ScoreDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.KaoqinActivity2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.KqQjActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.linkage.mobile72.sh.activity.OrderJxInteractionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <service android:name="info.emm.messenger.VYService" ></service>
+		
+        <receiver android:name="com.linkage.mobile72.sh.chat.InitReceiver" >
+            <intent-filter>
+                <action android:name="IMSDKServiceStarted" >
+                </action>
+            </intent-filter>
+        </receiver>
+		
+        <provider
+            android:name="com.linkage.mobile72.sh.im.provider.WsProvider"
+            android:authorities="com.linkage.mobile72.sh.im"
+            android:exported="false" />
+
+        <!--
+             <service
+            android:name="com.linkage.mobile72.sh.im.service.ChatService"
+            android:exported="false"
+            android:process=":im" />
+        -->
+        <!-- <service android:name="com.linkage.mobile72.sh.imol.service.IMChatService" /> -->
+        
+        <activity
+			 android:name="com.mob.tools.MobUIShell"
+			 android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			 android:configChanges="keyboardHidden|orientation|screenSize"
+			 android:screenOrientation="portrait"
+			 android:windowSoftInputMode="stateHidden|adjustResize" >
+			 <intent-filter>
+				 <data android:scheme="tencent100371282" />
+				 <action android:name="android.intent.action.VIEW" />
+				 <category android:name="android.intent.category.BROWSABLE" />
+				 <category android:name="android.intent.category.DEFAULT" />
+			 </intent-filter>
+		</activity>
+		<!--微信分享回调 -->
+		<activity
+			android:name="com.linkage.mobile72.sh.wxapi.WXEntryActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:exported="true"
+			android:screenOrientation="portrait" />
+        <!-- android:launchMode="singleInstance" -->
+        <activity android:name="com.linkage.mobile72.sh.receiver.UriLaunchReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="app.teacher"
+                    android:pathPrefix="/splash"
+                    android:scheme="educloud" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

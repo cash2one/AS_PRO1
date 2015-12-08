@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="left|center_vertical">
+    <CheckBox android:id="@+id/grantApi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_app_launch_item_margin"/>
+    <TextView android:id="@+id/grantText"
+        android:layout_toRightOf="@+id/grantApi"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_app_launch_item_size"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <ImageView 
+	  android:id="@+id/imageView"
+	  android:layout_width="140dp"
+	  android:layout_height="250dp"
+	  android:layout_marginLeft="10dp"
+	  android:contentDescription="@null"/>
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/item_app_detail_gallery.xml -->

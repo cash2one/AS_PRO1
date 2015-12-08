@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/title_next_normal" android:state_checked="false"/>
+    <item android:drawable="@drawable/title_next_select" android:state_checked="true"/>
+</selector>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/title_next.xml -->

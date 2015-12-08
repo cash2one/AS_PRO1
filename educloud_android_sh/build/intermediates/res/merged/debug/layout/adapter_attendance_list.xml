@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_list_item_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#5e5e5e"
+            android:textSize="20sp"
+            android:text="我的"/>
+        <TextView android:id="@+id/state"
+            android:layout_toRightOf="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#f19149"
+            android:textSize="20sp"
+            android:text="请假"/>
+        <RadioButton android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:button="@null"
+            android:drawableLeft="@drawable/jxhd_call"
+            android:text="打电话"
+            android:textColor="#74d245"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+	<LinearLayout 
+	    android:id="@+id/reason_layout"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+        <TextView android:id="@+id/reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="#b7b7b7"
+            android:textSize="12sp"/>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/adapter_attendance_list.xml -->
