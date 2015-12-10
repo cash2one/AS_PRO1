@@ -396,8 +396,6 @@ public class LoginActivity extends BaseActivity implements OnClickListener, VYCa
 			LogUtils.e("LoginActivity, intent is null!!");
 		}
 
-
-
 	}
 	
 	public void showAlrter() {
