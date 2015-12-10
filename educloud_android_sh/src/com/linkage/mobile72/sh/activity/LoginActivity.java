@@ -396,22 +396,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener, VYCa
 			LogUtils.e("LoginActivity, intent is null!!");
 		}
 
-//		APKUtils utils = new APKUtils();
-//		try {
-//			if (PluginManager.getInstance().isConnected()) {
-//				PluginManager.getInstance().deletePackage("com.linkage.webviewapp", 0);
-//			}
-//			utils.installAPK(this,"/storage/emulated/0/download/webviewapp-release(1).apk","com.linkage.webviewapp",true);
-//
-//
-//		}catch (Exception e)
-//		{
-//			e.printStackTrace();
-//		}
-//		PackageManager pm = getPackageManager();
-//		Intent intent1 = pm.getLaunchIntentForPackage("com.linkage.webviewapp");
-//		intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//		startActivity(intent1);
+
 
 	}
 	
