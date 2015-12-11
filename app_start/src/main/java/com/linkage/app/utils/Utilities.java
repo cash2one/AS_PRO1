@@ -8,6 +8,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.Environment;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
@@ -239,4 +240,12 @@ public class Utilities {
 
 	}
 
+	public static boolean hasSDCardMounted() {
+		String state = Environment.getExternalStorageState();
+		if (state != null && state.equals(Environment.MEDIA_MOUNTED)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
