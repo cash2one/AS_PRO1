@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/tab_jxhd_click" android:state_checked="true"/>
 	<item android:drawable="@drawable/tab_jxhd_normal"/>
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/tab_jxhd.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/tab_jxhd.xml -->

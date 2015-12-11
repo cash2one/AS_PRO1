@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\android_studio_workspace\\Web\\educloud_android_sh\\src\\com\\linkage\\mobile72\\sh\\im\\service\\IChatService.aidl
+ * Original file: D:\\as_workspace\\AS_PRO1\\educloud_android_sh\\src\\com\\linkage\\mobile72\\sh\\im\\service\\IChatService.aidl
  */
 package com.linkage.mobile72.sh.im.service;
 public interface IChatService extends android.os.IInterface

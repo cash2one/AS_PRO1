@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="absListViewStyle"/>
+    <attr format="reference" name="listViewStyle"/>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_gray">#ffa9a9a9</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="AbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr format="boolean" name="textFilterEnabled"/><attr name="transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="fastScrollEnabled"/><attr format="boolean" name="smoothScrollbar"/><attr name="choiceMode"><enum name="none" value="0"/><enum name="singleChoice" value="1"/><enum name="multipleChoice" value="2"/><enum name="multipleChoiceModal" value="3"/></attr><attr format="boolean" name="fastScrollAlwaysVisible"/></declare-styleable>
+    <declare-styleable name="ListView"><attr format="dimension" name="dividerHeight"/><attr format="boolean" name="headerDividersEnabled"/><attr format="boolean" name="footerDividersEnabled"/><attr format="reference|color" name="overScrollHeader"/><attr format="reference|color" name="overScrollFooter"/><attr format="color" name="plaContentBackground"/></declare-styleable>
+    <declare-styleable name="MultiColumnListView"><attr format="integer" name="plaColumnNumber"/><attr format="integer" name="plaLandscapeColumnNumber"/><attr format="dimension" name="plaColumnPaddingLeft"/><attr format="dimension" name="plaColumnPaddingRight"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="PullToRefreshView"><attr format="dimension" name="ptrHeight"/><attr format="dimension" name="ptrSpinnerMarginRight"/><attr format="dimension" name="ptrArrowMarginRight"/><attr format="dimension" name="ptrTextSize"/><attr format="dimension" name="ptrLastUpdateTextSize"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode"><enum name="none" value="0"/><enum name="both" value="1"/><enum name="right" value="2"/><enum name="left" value="3"/></attr><attr format="enum" name="swipeActionLeft"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="enum" name="swipeActionRight"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable>
+    <declare-styleable name="View"><attr format="reference" name="id"/><attr format="string" name="tag"/><attr format="dimension" name="scrollX"/><attr format="dimension" name="scrollY"/><attr format="dimension" name="padding"/><attr format="dimension" name="paddingLeft"/><attr format="dimension" name="paddingTop"/><attr format="dimension" name="paddingRight"/><attr format="dimension" name="paddingBottom"/><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr format="boolean" name="focusable"/><attr format="boolean" name="focusableInTouchMode"/><attr name="visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/><enum name="gone" value="2"/></attr><attr format="boolean" name="fitsSystemWindows"/><attr name="scrollbars"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00000100"/><flag name="vertical" value="0x00000200"/></attr><attr name="scrollbarStyle"><enum name="insideOverlay" value="0x0"/><enum name="insideInset" value="0x01000000"/><enum name="outsideOverlay" value="0x02000000"/><enum name="outsideInset" value="0x03000000"/></attr><attr format="boolean" name="isScrollContainer"/><attr format="boolean" name="fadeScrollbars"/><attr format="integer" name="scrollbarFadeDuration"/><attr format="integer" name="scrollbarDefaultDelayBeforeFade"/><attr format="dimension" name="scrollbarSize"/><attr format="reference" name="scrollbarThumbHorizontal"/><attr format="reference" name="scrollbarThumbVertical"/><attr format="reference" name="scrollbarTrackHorizontal"/><attr format="reference" name="scrollbarTrackVertical"/><attr format="boolean" name="scrollbarAlwaysDrawHorizontalTrack"/><attr format="boolean" name="scrollbarAlwaysDrawVerticalTrack"/><attr name="fadingEdge"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00001000"/><flag name="vertical" value="0x00002000"/></attr><attr name="requiresFadingEdge"><flag name="none" value="0x00000000"/><flag name="horizontal" value="0x00001000"/><flag name="vertical" value="0x00002000"/></attr><attr format="dimension" name="fadingEdgeLength"/><attr format="reference" name="nextFocusLeft"/><attr format="reference" name="nextFocusRight"/><attr format="reference" name="nextFocusUp"/><attr format="reference" name="nextFocusDown"/><attr format="reference" name="nextFocusForward"/><attr format="boolean" name="clickable"/><attr format="boolean" name="longClickable"/><attr format="boolean" name="saveEnabled"/><attr format="boolean" name="filterTouchesWhenObscured"/><attr name="drawingCacheQuality"><enum name="auto" value="0"/><enum name="low" value="1"/><enum name="high" value="2"/></attr><attr format="boolean" name="keepScreenOn"/><attr format="boolean" name="duplicateParentState"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="minWidth"/><attr format="boolean" name="soundEffectsEnabled"/><attr format="boolean" name="hapticFeedbackEnabled"/><attr format="string" localization="suggested" name="contentDescription"/><attr format="string" name="onClick"/><attr name="overScrollMode"><enum name="always" value="0"/><enum name="ifContentScrolls" value="1"/><enum name="never" value="2"/></attr><attr format="float" name="alpha"/><attr format="dimension" name="translationX"/><attr format="dimension" name="translationY"/><attr format="dimension" name="transformPivotX"/><attr format="dimension" name="transformPivotY"/><attr format="float" name="rotation"/><attr format="float" name="rotationX"/><attr format="float" name="rotationY"/><attr format="float" name="scaleX"/><attr format="float" name="scaleY"/><attr name="verticalScrollbarPosition"><enum name="defaultPosition" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr><attr name="layerType"><enum name="none" value="0"/><enum name="software" value="1"/><enum name="hardware" value="2"/></attr><attr name="layoutDirection"><enum name="ltr" value="0"/><enum name="rtl" value="1"/><enum name="inherit" value="2"/><enum name="locale" value="3"/></attr><attr format="integer" name="textDirection"><enum name="inherit" value="0"/><enum name="firstStrong" value="1"/><enum name="anyRtl" value="2"/><enum name="ltr" value="3"/><enum name="rtl" value="4"/><enum name="locale" value="5"/></attr><attr format="integer" name="textAlignment"><enum name="inherit" value="0"/><enum name="gravity" value="1"/><enum name="textStart" value="2"/><enum name="textEnd" value="3"/><enum name="center" value="4"/><enum name="viewStart" value="5"/><enum name="viewEnd" value="6"/></attr><attr format="integer" name="importantForAccessibility"><enum name="auto" value="0"/><enum name="yes" value="1"/><enum name="no" value="2"/></attr><attr format="integer" name="accessibilityFocusable"><enum name="auto" value="0"/><enum name="yes" value="1"/><enum name="no" value="2"/></attr></declare-styleable>
+    <declare-styleable name="ViewGroup"><attr format="boolean" name="animateLayoutChanges"/><attr format="boolean" name="clipChildren"/><attr format="boolean" name="clipToPadding"/><attr format="reference" name="layoutAnimation"/><attr format="boolean" name="animationCache"/><attr name="persistentDrawingCache"><flag name="none" value="0x0"/><flag name="animation" value="0x1"/><flag name="scrolling" value="0x2"/><flag name="all" value="0x3"/></attr><attr format="boolean" name="alwaysDrawnWithCache"/><attr format="boolean" name="addStatesFromChildren"/><attr name="descendantFocusability"><enum name="beforeDescendants" value="0"/><enum name="afterDescendants" value="1"/><enum name="blocksDescendants" value="2"/></attr><attr format="boolean" name="splitMotionEvents"/></declare-styleable>
+    <declare-styleable name="ZSwipeItem"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="dimension" name="horizontalSwipeOffset"/><attr format="dimension" name="verticalSwipeOffset"/><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="album_cover_height">120.0dip</dimen>
+    <dimen name="album_cover_width">120.0dip</dimen>
+    <dimen name="album_image_h_gap">8.0dip</dimen>
+    <dimen name="album_image_v_gap">8.0dip</dimen>
+    <dimen name="common_fields_gap">8.0dip</dimen>
+    <dimen name="discuss_avatar_height">45.0dip</dimen>
+    <dimen name="discuss_avatar_width">45.0dip</dimen>
+    <dimen name="discuss_image_height">100.0dip</dimen>
+    <dimen name="discuss_image_width">100.0dip</dimen>
+    <dimen name="face_item_height">32.0dip</dimen>
+    <dimen name="face_item_width">32.0dip</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">24dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="main_grid_height">94.0dip</dimen>
+    <dimen name="main_grid_width">82.0dip</dimen>
+    <dimen name="main_gridview_width">262.0dip</dimen>
+    <dimen name="main_tab_widget_padding_left">8.0dip</dimen>
+    <dimen name="main_tab_widget_padding_right">8.0dip</dimen>
+    <dimen name="popup_window_width">200.0dip</dimen>
+    <dimen name="preview_image_height">50.0dip</dimen>
+    <dimen name="preview_image_width">50.0dip</dimen>
+    <dimen name="shadow_width">20dip</dimen>
+    <dimen name="skin_gridview_margin">60dip</dimen>
+    <dimen name="slidingmenu_offset">120dip</dimen>
+    <dimen name="title_bar_height">48.0dip</dimen>
+    <dimen name="titlebar_height">48.0dip</dimen>
+    <item name="chat_delete" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="list_child_item" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">app</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <eat-comment/>
+    <string name="icon">图片</string>
+    <string name="ptr_last_updated">更新于: %1$s</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_pullup_label">上拉更多…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
+    <eat-comment/>
+    <string name="service_name_plugin_manager_service">插件管理服务</string>
+    <string name="stub_name_activity">启动插件ing...</string>
+    <string name="stub_name_povider">插件代理服务</string>
+    <string name="stub_name_service">插件代理服务</string>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:divider">@drawable/list_divider_line</item>
+    </style>
+    <style name="CustomDialogTrans" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:divider">@drawable/list_divider_line</item>
+    </style>
+    <!-- From: file:/D:/as_workspace/AS_PRO1/app_start/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
+    <eat-comment/>
+    <style name="DroidPluginTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

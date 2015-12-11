@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
 	<item android:state_pressed="true" android:drawable="@drawable/im_video_active"/>
 	<item android:drawable="@drawable/im_video"/>
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/chat_btn_camera.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/chat_btn_camera.xml -->

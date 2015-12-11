@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\android_studio_workspace\\Web\\educloud_android_sh\\src\\com\\linkage\\mobile72\\sh\\im\\IUploadFileListener.aidl
+ * Original file: D:\\as_workspace\\AS_PRO1\\educloud_android_sh\\src\\com\\linkage\\mobile72\\sh\\im\\IUploadFileListener.aidl
  */
 package com.linkage.mobile72.sh.im;
 public interface IUploadFileListener extends android.os.IInterface

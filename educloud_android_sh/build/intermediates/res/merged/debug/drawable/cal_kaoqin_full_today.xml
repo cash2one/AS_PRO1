@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/kaoqin_full_today_select" android:state_selected="true"/>
     <item android:drawable="@drawable/kaoqin_full_today"/>
 
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/cal_kaoqin_full_today.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/cal_kaoqin_full_today.xml -->

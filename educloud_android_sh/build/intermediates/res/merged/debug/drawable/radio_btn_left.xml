@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:drawable="@drawable/radio_btn_left_normal" android:state_checked="false"/>
     <item android:drawable="@drawable/radio_btn_left_select" android:state_checked="true"/>
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/radio_btn_left.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/radio_btn_left.xml -->

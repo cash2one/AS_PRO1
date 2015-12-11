@@ -12,4 +12,4 @@
 		android:layout_height="fill_parent"
 		android:layout_below="@id/relativelayout1"
 	    />
-</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_picture_review.xml -->
+</RelativeLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/activity_picture_review.xml -->

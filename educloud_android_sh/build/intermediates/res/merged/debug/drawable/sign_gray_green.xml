@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/sign_green" android:state_checked="true"/>
     <item android:drawable="@drawable/sign_green" android:state_selected="true"/>
     <item android:drawable="@drawable/sign_gray"/>
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/sign_gray_green.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/sign_gray_green.xml -->

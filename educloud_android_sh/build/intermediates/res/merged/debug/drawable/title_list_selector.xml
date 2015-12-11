@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/mm_title_functionframe_pressed" android:state_selected="true"></item>
     <item android:drawable="@android:color/transparent"></item>
 
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/title_list_selector.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/title_list_selector.xml -->

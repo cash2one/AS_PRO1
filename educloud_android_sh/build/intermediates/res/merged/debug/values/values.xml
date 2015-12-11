@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/arrays.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="alarm">
         <item>5分钟</item>
@@ -213,14 +213,14 @@
         <item>星期五</item>
         <item>星期六</item>
     </string-array>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="absListViewStyle"/>
     <attr format="reference" name="listViewStyle"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <color name="activity_bg">#e8ecf0</color>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/colors.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/colors.xml -->
     <eat-comment/>
     <color name="app_detail_bg">#e1e1e1</color>
     <color name="app_detail_text_normal">#999999</color>
@@ -232,11 +232,11 @@
     <color name="at_light_orange">#f7b551</color>
     <color name="at_light_red">#ed7554</color>
     <color name="at_mid_gray">#696969</color>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <color name="backgroundColor">#E8E8E0</color>
     <color name="backgroundColorPress">#DBDBD3</color>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/colors.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#ff000000</color>
     <color name="black_little">#ff222222</color>
@@ -340,10 +340,10 @@
     <color name="topic_item_summary">#787878</color>
     <color name="topic_item_title">#000000</color>
     <color name="trans_black">#99000000</color>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <color name="transparent">#00000000</color>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/colors.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/colors.xml -->
     <eat-comment/>
     <color name="viewfinder_mask">#60000000</color>
     <color name="vote_parent_item_checked">#E2E2E2</color>
@@ -366,7 +366,7 @@
     <declare-styleable name="ViewGroup"><attr format="boolean" name="animateLayoutChanges"/><attr format="boolean" name="clipChildren"/><attr format="boolean" name="clipToPadding"/><attr format="reference" name="layoutAnimation"/><attr format="boolean" name="animationCache"/><attr name="persistentDrawingCache"><flag name="none" value="0x0"/><flag name="animation" value="0x1"/><flag name="scrolling" value="0x2"/><flag name="all" value="0x3"/></attr><attr format="boolean" name="alwaysDrawnWithCache"/><attr format="boolean" name="addStatesFromChildren"/><attr name="descendantFocusability"><enum name="beforeDescendants" value="0"/><enum name="afterDescendants" value="1"/><enum name="blocksDescendants" value="2"/></attr><attr format="boolean" name="splitMotionEvents"/></declare-styleable>
     <declare-styleable name="ZSwipeItem"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="dimension" name="horizontalSwipeOffset"/><attr format="dimension" name="verticalSwipeOffset"/><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable>
     <declare-styleable name="calendar_cell"><attr format="boolean" name="state_selectable"/><attr format="boolean" name="state_current_month"/><attr format="boolean" name="state_today"/><attr format="boolean" name="state_range_first"/><attr format="boolean" name="state_range_middle"/><attr format="boolean" name="state_range_last"/><attr format="boolean" name="state_highlighted"/></declare-styleable>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_app_launch_item_size">12sp</dimen>
     <dimen name="activity_app_launch_margin">160dp</dimen>
@@ -389,13 +389,13 @@
     <dimen name="adapter_join_group_list_item_margin_left">5dp</dimen>
     <dimen name="adapter_join_group_list_item_margin_right">10dp</dimen>
     <dimen name="adapter_join_group_list_item_margin_top">5dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="album_cover_height">120.0dip</dimen>
     <dimen name="album_cover_width">120.0dip</dimen>
     <dimen name="album_image_h_gap">8.0dip</dimen>
     <dimen name="album_image_v_gap">8.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="atten_line_height">50dp</dimen>
     <dimen name="atten_pie_width">120dp</dimen>
@@ -410,10 +410,10 @@
     <dimen name="clazz_set_info_height">80dip</dimen>
     <dimen name="clazz_set_margin_left">30px</dimen>
     <dimen name="clazz_set_normal_height">50dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="common_fields_gap">8.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="common_item_height">50dip</dimen>
     <dimen name="common_item_height_big">50dip</dimen>
@@ -432,7 +432,7 @@
     <dimen name="create_homework_text">15dp</dimen>
     <dimen name="dimen_margin_circle">4dp</dimen>
     <dimen name="dimen_margin_circle.negative">-4dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="discuss_avatar_height">45.0dip</dimen>
     <dimen name="discuss_avatar_width">45.0dip</dimen>
@@ -440,24 +440,24 @@
     <dimen name="discuss_image_width">100.0dip</dimen>
     <dimen name="face_item_height">32.0dip</dimen>
     <dimen name="face_item_width">32.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="head_fragment_app_framelayout_height">180dp</dimen>
     <dimen name="head_fragment_app_horizontalscrollView_height">110dp</dimen>
     <dimen name="head_fragment_app_newapp_word_size">16sp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="header_footer_left_right_padding">24dp</dimen>
     <dimen name="header_footer_top_bottom_padding">24dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="include_head_withava_jiabutton">90dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="indicator_corner_radius">12dp</dimen>
     <dimen name="indicator_internal_padding">4dp</dimen>
     <dimen name="indicator_right_padding">10dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="item_app_installed_image">70dp</dimen>
     <dimen name="item_app_installed_text">13sp</dimen>
@@ -477,48 +477,48 @@
     <dimen name="jxhd_detail_photo_width">86dp</dimen>
     <dimen name="list_text_desc_size">12sp</dimen>
     <dimen name="list_text_name_size">18sp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="main_grid_height">94.0dip</dimen>
     <dimen name="main_grid_width">82.0dip</dimen>
     <dimen name="main_gridview_width">262.0dip</dimen>
     <dimen name="main_tab_widget_padding_left">8.0dip</dimen>
     <dimen name="main_tab_widget_padding_right">8.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="margin_chat_activity">5dp</dimen>
     <dimen name="new_friends_item_textmargin">5dp</dimen>
     <dimen name="normal_gray_text_size">40px</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="popup_window_width">200.0dip</dimen>
     <dimen name="preview_image_height">50.0dip</dimen>
     <dimen name="preview_image_width">50.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="sc_bar_height">35dip</dimen>
     <dimen name="sc_frg_linechart_height">200dp</dimen>
     <dimen name="sc_frg_linechart_width">500dp</dimen>
     <dimen name="sc_frg_sum_text_size">14sp</dimen>
     <dimen name="sc_frg_type_heght">40dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="shadow_width">20dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="size_avatar">50dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="skin_gridview_margin">60dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="slidingmenu_offset">70dip</dimen>
     <dimen name="title_back_margin_left">20px</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <dimen name="title_bar_height">48.0dip</dimen>
     <dimen name="titlebar_height">48.0dip</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="tk_grid_side_space">7dp</dimen>
     <dimen name="tk_grid_space">5dp</dimen>
@@ -541,14 +541,14 @@
     <dimen name="wonder_exer_item_pic_height">150dp</dimen>
     <dimen name="wonder_exer_item_pic_width">340dp</dimen>
     <dimen name="wonder_exer_item_title">16dp</dimen>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ids.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ids.xml -->
     <eat-comment/>
     <item name="about_version_code" type="id">false</item>
     <item name="auto_focus" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <item name="chat_delete" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ids.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ids.xml -->
     <eat-comment/>
     <item name="decode" type="id"/>
     <item name="decode_failed" type="id"/>
@@ -557,29 +557,29 @@
     <item name="encode_succeeded" type="id"/>
     <item name="gridview" type="id"/>
     <item name="launch_product_query" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <item name="list_child_item" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ids.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ids.xml -->
     <eat-comment/>
     <item name="quit" type="id"/>
     <item name="restart_preview" type="id"/>
     <item name="return_scan_result" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <item name="scrollview" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ids.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ids.xml -->
     <eat-comment/>
     <item name="search_book_contents_failed" type="id"/>
     <item name="search_book_contents_succeeded" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <item name="selected_view" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ids.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ids.xml -->
     <eat-comment/>
     <item name="split" type="id">false</item>
     <item name="webview" type="id"/>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="Add_a_button_was_clicked">添加按钮被点击</string>
     <string name="Add_a_friend">加个好友呗</string>
@@ -730,20 +730,20 @@
     <string name="atten_photo">考勤照片</string>
     <string name="audio">[语音]</string>
     <string name="back">返回</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="baidutieba">百度贴吧</string>
     <string name="baidutieba_client_inavailable">目前您的百度贴吧版本过低或未安装，需要安装百度贴吧才能使用</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="be_removing">正在移出...</string>
     <string name="being_added">正在添加...</string>
     <string name="black_item">黑名单</string>
     <string name="blacklist">黑名单列表</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="bluetooth">蓝牙</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="book_black">通讯录黑名单</string>
     <string name="button_add">添加</string>
@@ -806,41 +806,41 @@
     <string name="did_not_answer">未接听</string>
     <string name="dissolution_group_hint">退出后，此群将被解散</string>
     <string name="distance_run">定距跑步</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="douban">豆瓣</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="download">下载</string>
     <string name="downwaiting">正在下载文件请稍后</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="dropbox">Dropbox</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="em_user_remove">此用户已被移除</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="email">邮件</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="empty_username_password">用户名和密码不能为空</string>
     <string name="end_time_text">结束时间：</string>
     <string name="enter_new_password">请确认新密码</string>
     <string name="error_username_password">用户名或密码不正确</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="evernote">印象笔记</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="exit_group">退出</string>
     <string name="exit_group_hint">退出后，将不再接收此群聊信息</string>
     <string name="expression">[表情]</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="facebook">Facebook</string>
     <string name="facebookmessenger">Facebook Messenger</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="failed_to_move_into">移入黑名单失败,请检查网络或稍后重试</string>
     <string name="fetch_data">正在获取成绩信息...</string>
@@ -848,25 +848,25 @@
     <string name="file">[文件]</string>
     <string name="fill_sms_code">填写注册信息</string>
     <string name="finish">完成</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="flickr">Flickr</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="forward">转发</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="foursquare">FourSquare</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="friend_info">好友资料</string>
     <string name="get_code">获取验证码</string>
     <string name="get_failed_please_check">获取失败,请检查网络或稍后再试</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
     <string name="googleplus">Google+</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="gorup_not_found">找不到这个群组</string>
     <string name="group_chat">群聊</string>
@@ -889,10 +889,10 @@
     <string name="hint_search_friend">请输入名称、手机号</string>
     <string name="hint_search_group">请输入群名称、群号</string>
     <string name="human">人</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <string name="icon">图片</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="input_limit">你输入的字数已经超过了限制哦！</string>
     <string name="input_name">请输入昵称</string>
@@ -903,12 +903,12 @@
     <string name="input_phone">请输入手机号</string>
     <string name="input_re_password">请确认新密码</string>
     <string name="input_sms_code">输入验证码</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instagram">Instagram</string>
     <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
     <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/instapaper_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/instapaper_strings.xml -->
     <eat-comment/>
     <string formatted="false" name="instapager_login_html"><![CDATA[
 <!DOCTYPE html>
@@ -976,14 +976,14 @@ function login(form){
 </body>
 </html>
 ]]></string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instapaper">Instapaper</string>
     <string name="instapaper_email">邮箱</string>
     <string name="instapaper_login">登录</string>
     <string name="instapaper_logining">登录中…</string>
     <string name="instapaper_pwd">密码</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="intelligence_test">智能测试</string>
     <string name="invalid_date">Date must be between %1$s and %2$s.</string>
@@ -1000,7 +1000,7 @@ function login(form){
     <string name="join_clazz_senior">高三全科班</string>
     <string name="jslt">即时聊天</string>
     <string name="jslt_empty">没有会话记录</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="kaixin">开心网</string>
     <string name="kakaostory">KakaoStory</string>
@@ -1013,10 +1013,10 @@ function login(form){
     <string name="line">Line</string>
     <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
     <string name="linkedin">领英</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="list_friends">%s的朋友</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="list_is_for">正在获取好友和群聊列表...</string>
     <string name="location_message">位置信息</string>
@@ -1037,11 +1037,11 @@ function login(form){
     <string name="me_ic_pwd">修改密码</string>
     <string name="me_ic_version">版本更新</string>
     <string name="message_ticker_format">%s的消息</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="mingdao">明道</string>
     <string name="mingdao_share_content">网页分享</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="mm_title_add_friend">添加好友</string>
     <string name="mm_title_add_group">添加班级</string>
@@ -1052,17 +1052,17 @@ function login(form){
     <string name="month_name_format">yyyy年MM月</string>
     <string name="move_up_to_cancel">手指上滑，取消发送</string>
     <string name="msg_jxhz">家校互动</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="multi_share">图文分享</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="mute">静音</string>
     <string name="name_null">用户名不能为空</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="network_anomalies">网络异常，请检查网络！</string>
     <string name="network_isnot_available">网络不可用</string>
@@ -1100,50 +1100,50 @@ function login(form){
     <string name="photo">图片</string>
     <string name="pic">[图片]</string>
     <string name="picture">[图片]</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="please_check">key 验证出错! 请在 AndroidManifest.xml 文件中检查 key 设置</string>
     <string name="please_set_the_current">设置当前用户的昵称\n用于ios离线推送时显示用户昵称</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pocket">Pocket</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="pop_cancel">取消</string>
     <string name="pop_exitgroup">退出该群</string>
     <string name="pop_report">举报</string>
     <string name="prompt">提示</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <string name="ptr_last_updated">更新于: %1$s</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="publish">发表</string>
     <string name="publish_to_class">发到本班</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh">下拉刷新</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <string name="pull_to_refresh_pull_label">下拉刷新…</string>
     <string name="pull_to_refresh_pullup_label">上拉更多…</string>
     <string name="pull_to_refresh_refreshing_label">正在载入…</string>
     <string name="pull_to_refresh_release_label">放开以刷新…</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qq">QQ</string>
     <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="quit_talk">退出</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qzone">QQ空间</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="rank">排名</string>
     <string name="rank_down">比上次下降了%1$d名</string>
@@ -1153,28 +1153,28 @@ function login(form){
     <string name="receive_the_passthrough">收到透传：action：</string>
     <string name="recoding_fail">录音失败，请重试！</string>
     <string name="recording_video">录制视频</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="refreshing">刷新中…</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="register">注册</string>
     <string name="register_finish">您已注册成功!</string>
     <string name="register_finish_2">您可以完善资料，或者到处转转</string>
     <string name="registration_failed_without_permission">注册失败，无权限！</string>
     <string name="release_to_cancel">松开手指，取消发送</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="release_to_refresh">松开刷新</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="remove_group_of">解除群屏蔽失败，请检查网络或稍后重试</string>
     <string name="ren_leave">人请假</string>
     <string name="ren_no_atten">人缺勤</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="renren">人人网</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="resend">重发</string>
     <string name="reset_the_password">密码重置</string>
@@ -1190,83 +1190,83 @@ function login(form){
     <string name="search">搜索</string>
     <string name="search_header">搜</string>
     <string name="search_new">搜</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_a_friend">请选择一个朋友</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="select_contacts">选择联系人</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_one_plat_at_least">请选择一个目标平台</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="send_fail">发送消息失败,</string>
     <string name="send_failure_please">发送失败，请检测服务器是否连接</string>
     <string name="send_range">发送范围</string>
     <string name="send_successful">发送请求成功,等待对方验证</string>
     <string name="send_the_request_is">发送请求成功，等待群主同意</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
     <eat-comment/>
     <string name="service_name_plugin_manager_service">插件管理服务</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="session">会话</string>
     <string name="set">设置</string>
     <string name="setting">设置</string>
     <string name="shake">震动</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="shake2share">摇晃手机！</string>
     <string name="share">分享</string>
     <string name="share_canceled">分享已取消</string>
     <string name="share_completed">分享成功</string>
     <string name="share_failed">分享失败</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="share_input_tip">您还可以输入%1$s个字</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="share_to">分享到</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="share_to_baidutieba">分享到百度贴吧</string>
     <string name="share_to_mingdao">分享到明道</string>
     <string name="share_to_qq">分享到QQ</string>
     <string name="share_to_qzone">分享到QQ空间</string>
     <string name="share_to_qzone_default">来自%s的分享</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/oks_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="sharing">分享操作正在后台进行…</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="shortmessage">信息</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="signal_strength_text">信号强度：</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="sinaweibo">新浪微博</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="single_test">单项测试</string>
     <string name="smscode_null">验证码不能为空</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="sohumicroblog">搜狐微博</string>
     <string name="sohusuishenkan">搜狐随身看</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="sports_log">运动日志</string>
     <string name="sports_title">运动</string>
     <string name="standard_test">达标测试</string>
     <string name="start_time_text">开始时间：</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
     <eat-comment/>
     <string name="stub_name_activity">启动插件ing...</string>
     <string name="stub_name_povider">插件代理服务</string>
     <string name="stub_name_service">插件代理服务</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="sure">确定</string>
     <string name="sure_to_empty_this">确定清空此群的聊天记录吗？</string>
@@ -1281,10 +1281,10 @@ function login(form){
     <string name="talk_all">全部</string>
     <string name="talk_what">有什么事情告诉大家？</string>
     <string name="temporary_does_not">暂不支持大于10M的视频！</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tencentweibo">腾讯微博</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="test_standard">考核标准</string>
     <string name="text_ack_msg">已读</string>
@@ -1340,19 +1340,19 @@ function login(form){
     <string name="today_topic">今日话题</string>
     <string name="total_human">总人数</string>
     <string name="total_word">您还可以输入%1$d个字</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tumblr">Tumblr</string>
     <string name="twitter">Twitter</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="unable_to_connect">不能连接到服务器</string>
     <string name="unable_to_get_loaction">无法获取到您的位置信息!</string>
     <string name="upload_atten_sucess">考勤确认成功</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="use_login_button">请改用“登录”按钮</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="user_card">名片</string>
     <string name="user_name">用户ID</string>
@@ -1360,15 +1360,15 @@ function login(form){
     <string name="verifypassword_null">确认密码不能为空</string>
     <string name="version_name">小课桌</string>
     <string name="video">[视频]</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="vkontakte">VK</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="voice">声音</string>
     <string name="voice_call">[语音通话]</string>
     <string name="we_have_send_sms">验证码已发送成功！</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="website">http://www.mob.com</string>
     <string name="wechat">微信好友</string>
@@ -1379,23 +1379,23 @@ function login(form){
     <string name="weibo_upload_content">分享图片</string>
     <string name="whatsapp">WhatsApp</string>
     <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="wonder_exercise">精彩活动</string>
     <string name="write_tale">写说说</string>
     <string name="yangshengqi">使用扬声器播放语音</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="yixin">易信</string>
     <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
     <string name="yixinmoments">易信朋友圈</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/strings.xml -->
     <eat-comment/>
     <string name="you_are_group">你被群创建者从此群中移除</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/ssdk_strings.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="youdao">有道云笔记</string>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/styles.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/styles.xml -->
     <eat-comment/>
     <style name="AnimBottom" parent="@android:style/Animation">  
     	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
@@ -1437,7 +1437,7 @@ function login(form){
     <item name="android:textColor">@color/calendar_text_active</item>
     <item name="android:textStyle">bold</item>
   </style>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/values/values.xml -->
     <eat-comment/>
     <style name="CustomDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
@@ -1455,13 +1455,13 @@ function login(form){
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:divider">@drawable/list_divider_line</item>
     </style>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/styles.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/styles.xml -->
     <eat-comment/>
     <style name="DialogStyle" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground"> @android:color/transparent </item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/DroidPlugin-release/res/values/values.xml -->
     <eat-comment/>
     <style name="DroidPluginTheme" parent="android:Theme.Light.NoTitleBar">
         <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
@@ -1469,7 +1469,7 @@ function login(form){
     <style name="DroidPluginThemeDialog" parent="android:Theme.Dialog">
         <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
     </style>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values/styles.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values/styles.xml -->
     <eat-comment/>
     <style name="JiaPop">
 		<item name="@android:windowEnterAnimation">@anim/gd_grow_from_bottom</item>

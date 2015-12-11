@@ -2,4 +2,4 @@
 <com.linkage.ui.widget.slidingmenu.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/slidingmenumain"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" /><!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/layout/slidingmenumain.xml --><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/layout/slidingmenumain.xml -->
+    android:layout_height="fill_parent" /><!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/layout/slidingmenumain.xml --><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/layout/slidingmenumain.xml -->

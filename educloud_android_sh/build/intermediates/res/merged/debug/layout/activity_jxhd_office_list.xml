@@ -42,4 +42,4 @@
 		    android:textColor="@drawable/jx_office_type_text"
 		    android:text="收件箱"/>
     </RadioGroup>
-</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_jxhd_office_list.xml -->
+</RelativeLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/activity_jxhd_office_list.xml -->

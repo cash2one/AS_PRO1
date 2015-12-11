@@ -63,4 +63,4 @@
 	        android:textColor="@color/list_item_info_color"
 	        android:textSize="@dimen/list_text_desc_size" />
 	</RelativeLayout>
-</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/adapter_join_group_list_item.xml -->
+</LinearLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/adapter_join_group_list_item.xml -->

@@ -10,4 +10,4 @@
   <item app:state_selectable="false" android:color="@color/calendar_text_unselectable" />
   <item android:color="@color/calendar_text_active"/>
 </selector>
-<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/color/calendar_text_selector.xml -->
+<!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/color/calendar_text_selector.xml -->

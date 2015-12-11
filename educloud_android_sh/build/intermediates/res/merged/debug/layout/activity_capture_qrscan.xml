@@ -27,4 +27,4 @@
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/result"/>
-</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/activity_capture_qrscan.xml -->
+</RelativeLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/activity_capture_qrscan.xml -->

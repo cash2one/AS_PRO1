@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/values-xxhdpi-1920x1080/dimens.xml -->
+    <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/values-xxhdpi-1920x1080/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_app_launch_item_margin">10dp</dimen>
     <dimen name="activity_app_launch_margin">160dp</dimen>

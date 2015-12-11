@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/login_ck_on" android:state_checked="true"/>
+    <item android:drawable="@drawable/login_ck_off"/>
+</selector>
+<!-- From: file:/D:/as_workspace/AS_PRO1/app_start/src/main/res/drawable/login_ck_selector.xml -->

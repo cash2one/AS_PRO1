@@ -1,1 +1,1 @@
-include ':app', ':webview', ':educloud_android_sh'
+include ':app_start', ':educloud_android_sh'

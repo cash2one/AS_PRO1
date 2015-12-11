@@ -70,4 +70,4 @@
 		   android:textSize="@dimen/sc_frg_sum_text_size"
 		   android:textColor="@color/sc_light_gray"/>
     </RelativeLayout>
-</LinearLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/adapter_score_item.xml -->
+</LinearLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/adapter_score_item.xml -->

@@ -19,4 +19,4 @@
     android:duration="@android:integer/config_longAnimTime"
     android:fromYDelta="0"
     android:toYDelta="-100%p" />
-<!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/anim/slide_out_to_top.xml --><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/anim/slide_out_to_top.xml -->
+<!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/anim/slide_out_to_top.xml --><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/anim/slide_out_to_top.xml -->

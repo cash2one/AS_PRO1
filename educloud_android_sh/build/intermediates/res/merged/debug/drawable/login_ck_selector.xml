@@ -3,4 +3,4 @@
     <item android:drawable="@drawable/login_ck_on" android:state_checked="true"/>
     <item android:drawable="@drawable/login_ck_off"/>
 </selector>
-<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/login_ck_selector.xml -->
+<!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/login_ck_selector.xml -->

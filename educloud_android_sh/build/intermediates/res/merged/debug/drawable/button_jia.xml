@@ -3,4 +3,4 @@
     <item android:drawable="@drawable/title_jia_select" android:state_pressed="true"/>
     <item android:drawable="@drawable/title_jia_normal"/>
 </selector>
-<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/button_jia.xml -->
+<!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/button_jia.xml -->

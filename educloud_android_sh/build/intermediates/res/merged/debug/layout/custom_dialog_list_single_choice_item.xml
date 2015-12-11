@@ -22,4 +22,4 @@
         android:clickable="false"
         android:drawablePadding="4.0dip"
         android:focusable="false" />
-</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/layout/custom_dialog_list_single_choice_item.xml --><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/layout/custom_dialog_list_single_choice_item.xml -->
+</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/androidLib/src/main/res/layout/custom_dialog_list_single_choice_item.xml --><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/build/intermediates/exploded-aar/androidLib-release/res/layout/custom_dialog_list_single_choice_item.xml -->

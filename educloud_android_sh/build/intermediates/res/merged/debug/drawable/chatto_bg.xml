@@ -5,4 +5,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/chatto_bg_focused" />
     <item android:state_selected="true" android:drawable="@drawable/chatto_bg_focused" />
     <item android:drawable="@drawable/chatto_bg_normal" />
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/chatto_bg.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/chatto_bg.xml -->

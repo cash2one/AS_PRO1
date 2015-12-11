@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/round_center_press" />
     <item android:drawable="@drawable/round_center" />
 </selector>
-<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/atten_btn_center_selector.xml -->
+<!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/atten_btn_center_selector.xml -->

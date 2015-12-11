@@ -3,4 +3,4 @@
     <item android:color="@color/white" android:state_checked="true"/>
     <item android:color="@color/dark_gray" android:state_checked="false"/>
 </selector>
- <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/jx_office_type_text.xml -->
+ <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/jx_office_type_text.xml -->

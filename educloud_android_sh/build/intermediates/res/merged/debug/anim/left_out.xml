@@ -4,4 +4,4 @@
         android:fromXDelta="0"   
         android:toXDelta="-100%p"  
         android:duration="500" />  
-</set><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/anim/left_out.xml -->
+</set><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/anim/left_out.xml -->

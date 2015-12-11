@@ -5,4 +5,4 @@
     <item android:state_selected="true" android:drawable="@drawable/type_select_btn_pressed" />
     <item android:state_focused="true" android:drawable="@drawable/type_select_btn_pressed" />
     <item android:drawable="@drawable/type_select_btn_nor" />
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/type_select_btn.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/type_select_btn.xml -->

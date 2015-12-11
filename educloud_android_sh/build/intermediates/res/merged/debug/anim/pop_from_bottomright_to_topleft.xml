@@ -35,4 +35,4 @@
 		android:toAlpha="1.0"
 		android:duration="@android:integer/config_shortAnimTime" />
 		
-</set><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/anim/pop_from_bottomright_to_topleft.xml -->
+</set><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/anim/pop_from_bottomright_to_topleft.xml -->

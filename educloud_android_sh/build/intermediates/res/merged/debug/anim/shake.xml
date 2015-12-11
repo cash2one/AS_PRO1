@@ -4,4 +4,4 @@
     android:fromXDelta="0"
     android:interpolator="@anim/cycle"
     android:toXDelta="10" />
-<!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/anim/shake.xml -->
+<!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/anim/shake.xml -->

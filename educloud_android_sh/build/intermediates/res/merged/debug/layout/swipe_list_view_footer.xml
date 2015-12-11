@@ -25,4 +25,4 @@
 	    style="?android:attr/progressBarStyleSmall"
 	    android:layout_centerInParent="true"
 	    android:visibility="gone"/>
-</RelativeLayout><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/swipe_list_view_footer.xml -->
+</RelativeLayout><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/swipe_list_view_footer.xml -->

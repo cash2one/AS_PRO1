@@ -4,4 +4,4 @@
     <item android:drawable="@color/white_gray" android:state_pressed="true"></item>
     <item android:drawable="@color/white"></item>
 
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/topic_item_selector.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/topic_item_selector.xml -->

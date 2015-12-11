@@ -3,4 +3,4 @@
     <item android:drawable="@drawable/app_download_bg" android:state_pressed="true"/>
     <item android:drawable="@drawable/app_open_bg" />
 </selector>
- <!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/app_detail_btn.xml -->
+ <!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/app_detail_btn.xml -->

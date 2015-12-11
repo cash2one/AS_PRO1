@@ -65,4 +65,4 @@
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
   </com.linkage.mobile72.sh.widget.calendar.CalendarGridView>
-</com.linkage.mobile72.sh.widget.calendar.MonthView><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/layout/month.xml -->
+</com.linkage.mobile72.sh.widget.calendar.MonthView><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/layout/month.xml -->

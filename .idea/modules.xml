@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AS_PRO1.iml" filepath="$PROJECT_DIR$/AS_PRO1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_start/app_start.iml" filepath="$PROJECT_DIR$/app_start/app_start.iml" />
       <module fileurl="file://$PROJECT_DIR$/educloud_android_sh/educloud_android_sh.iml" filepath="$PROJECT_DIR$/educloud_android_sh/educloud_android_sh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
     </modules>
   </component>
 </project>

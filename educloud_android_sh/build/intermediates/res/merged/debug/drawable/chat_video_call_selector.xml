@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/chat_video_call_pressed" android:state_selected="true"/>
     <item android:drawable="@drawable/chat_video_call_normal"/>
 
-</selector><!-- From: file:/E:/android_studio_workspace/Web/educloud_android_sh/res/drawable/chat_video_call_selector.xml -->
+</selector><!-- From: file:/D:/as_workspace/AS_PRO1/educloud_android_sh/res/drawable/chat_video_call_selector.xml -->
