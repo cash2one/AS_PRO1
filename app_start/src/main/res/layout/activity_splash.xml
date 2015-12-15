@@ -24,7 +24,7 @@
             android:layout_marginTop="10dp"
             style="@style/StyleProgressBarMini"
             android:background="@drawable/shape_progressbar_bg"
-            android:progress="10"
+            android:max="100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
