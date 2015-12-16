@@ -2,6 +2,7 @@ package com.linkage.app.main;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -12,6 +13,7 @@ import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -83,16 +85,27 @@ public class SplashActivity extends BaseActivity {
 					download(needDownloadPlugins);
 					break;
 				case GO_TO_LOGIN:
-					APKUtils utils = new APKUtils();
-					/*try {
-						if (PluginManager.getInstance().isConnected()) {
-							PluginManager.getInstance().deletePackage("com.linkage.mobile72.sh", 0);
+					new Thread() {
+						@Override
+						public void run() {
+							APKUtils utils = new APKUtils();
+							try {
+								if (PluginManager.getInstance().isConnected()) {
+									PluginManager.getInstance().deletePackage("com.linkage.mobile72.js", 0);
+								}
+								PackageManager pm = getPackageManager();
+								utils.installAPK(SplashActivity.this,"/storage/emulated/0/linkage/1001/apk/1002.apk","com.linkage.mobile72.js",true);
+								Intent intent2 = pm.getLaunchIntentForPackage("com.linkage.mobile72.js");
+            					intent2.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+           						 startActivity(intent2);
+							}catch (Exception e) {
+								e.printStackTrace();
+							}
 						}
-						utils.installAPK(SplashActivity.this,"file:///android_asset/educloud_android_sh-release.apk","com.linkage.mobile72.sh",true);
-					}catch (Exception e) {
-						e.printStackTrace();
-					}*/
-					gotoLogin();
+					}.start();
+
+
+//					gotoLogin();
 			}
 
 		}
